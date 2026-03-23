@@ -23,6 +23,38 @@ class Vocab():
     def getWord(self, idx):
         return self.idx2word[idx]
 
+def read_iob2_file(path):
+    """
+    Read CoNLL-style IOB2 file
+    :param path: path to read from
+    :returns: list of (words, labels) per sentence
+    """
+    data = []
+    current_words = []
+    current_tags = []
+
+    for line in open(path, encoding='utf-8'):
+        line = line.strip()
+
+        if line:
+            if line[0] == '#':
+                continue  # skip comments
+
+            tok = line.split('\t')
+
+            current_words.append(tok[1])  # word
+            current_tags.append(tok[2])   # label
+                                        #tok[0] is a numbered position where word is in the sentence
+                                        #other parts are irrelevant (eg. it is either '-	stephen' OR -	-)
+        else:
+            if current_words:
+                data.append((current_words, current_tags))
+            current_words = []
+            current_tags = []
+    if current_words:
+        data.append((current_words, current_tags))  #this is here just in case lust sentence does not end with '' (which.. it does )
+    return data
+
 def convert_data(data, max_len, word_vocab, label_vocab, is_training=False):
     number_of_instances = len(data)
 
