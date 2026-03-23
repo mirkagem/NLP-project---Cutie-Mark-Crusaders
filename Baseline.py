@@ -36,6 +36,12 @@ def convert_data(data, max_len, word_vocab, label_vocab, is_training=False):
     
     return word_tensor, tag_tensor
 
+def create_batches(x, y, batch_size):
+    num_batches = len(x) // batch_size
+    x_batches = x[:batch_size*num_batches].view(num_batches, batch_size, max_len)
+    y_batches = y[:batch_size*num_batches].view(num_batches, batch_size, max_len)
+    return x_batches, y_batches
+
 class TaggerModel(torch.nn.Module):
     def __init__(self, nwords, ntags):
         super().__init__()
@@ -64,3 +70,9 @@ word_vocab = Vocab()
 label_vocab = Vocab()
 
 max_len= max([len(x[0]) for x in train_data ])
+
+train_x, train_y = convert_data(train_data, max_len, word_vocab, label_vocab, True)
+dev_x, dev_y = convert_data(dev_data, max_len, word_vocab, label_vocab)
+test_x, test_y = convert_data(test_data, max_len, word_vocab, label_vocab)
+
+train_x_batches, train_y_batches = create_batches(train_x, train_y, BATCH_SIZE)
