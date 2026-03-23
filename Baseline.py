@@ -1,5 +1,5 @@
-from torch import nn
 import torch
+from torch import nn
 
 class Vocab():
     def __init__(self, pad_unk='<PAD>'):
@@ -55,5 +55,12 @@ RNN_HIDDEN = 50
 BATCH_SIZE = 16
 LEARNING_RATE = 0.01
 EPOCHS = 10
+
+train_data = read_iob2_file('en_ewt-ud-train.iob2')
+dev_data = read_iob2_file('en_ewt-ud-dev.iob2')
+test_data = read_iob2_file('en_ewt-ud-test-masked.iob2')
+
+word_vocab = Vocab()
+label_vocab = Vocab()
 
 max_len= max([len(x[0]) for x in train_data ])
