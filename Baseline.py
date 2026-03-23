@@ -68,11 +68,40 @@ def convert_data(data, max_len, word_vocab, label_vocab, is_training=False):
     
     return word_tensor, tag_tensor
 
-def create_batches(x, y, batch_size):
+def create_batches(x, y, batch_size, max_len):
     num_batches = len(x) // batch_size
     x_batches = x[:batch_size*num_batches].view(num_batches, batch_size, max_len)
     y_batches = y[:batch_size*num_batches].view(num_batches, batch_size, max_len)
     return x_batches, y_batches
+
+def predict(model, x_data):
+    model.eval()
+    with torch.no_grad():
+        outputs = model(x_data)
+        predictions = torch.argmax(outputs, dim=-1)
+    return predictions
+
+def decode_predictions(preds, label_vocab, original_data):
+    decoded = []
+
+    for i, (words, _) in enumerate(original_data):
+        sent = []
+        for j, word in enumerate(words):
+            pred_tag_idx = preds[i][j].item()
+            pred_tag = label_vocab.idx2word[pred_tag_idx]
+            sent.append((word, pred_tag))
+        decoded.append(sent)
+
+    return decoded
+
+def save_predictions(decoded_data, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        for sentence in decoded_data:
+            for word, tag in sentence:
+                # We write: Word [TAB] Dummy [TAB] Tag
+                # This ensures the Tag is at index [2] for span_f1.py
+                f.write(f"{word}\t-\t{tag}\n")
+            f.write("\n")
 
 class TaggerModel(torch.nn.Module):
     def __init__(self, nwords, ntags):
@@ -107,4 +136,36 @@ train_x, train_y = convert_data(train_data, max_len, word_vocab, label_vocab, Tr
 dev_x, dev_y = convert_data(dev_data, max_len, word_vocab, label_vocab)
 test_x, test_y = convert_data(test_data, max_len, word_vocab, label_vocab)
 
-train_x_batches, train_y_batches = create_batches(train_x, train_y, BATCH_SIZE)
+train_x_batches, train_y_batches = create_batches(train_x, train_y, BATCH_SIZE, max_len)
+
+model = TaggerModel(len(word_vocab.idx2word), len(label_vocab.idx2word))
+optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
+loss_function = torch.nn.CrossEntropyLoss(ignore_index=0)
+
+for epoch in range(EPOCHS):
+    model.train()
+    total_loss = 0
+    # loop over batches
+    for x_batch, y_batch in zip(train_x_batches, train_y_batches):
+        model.zero_grad()
+        predicted_values = model(x_batch)
+
+        flat_predictions = predicted_values.view(BATCH_SIZE * max_len, -1)
+        flat_targets = y_batch.view(BATCH_SIZE * max_len)
+
+        # calculate loss (and print)
+        loss = loss_function(flat_predictions, flat_targets)
+        
+        # update
+        loss.backward()
+        optimizer.step()
+
+        total_loss += loss.item()
+    
+    print(f"Epoch {epoch}: Loss = {total_loss}")
+
+
+test_preds = predict(model, test_x)
+decoded_test = decode_predictions(test_preds, label_vocab, test_data)
+
+save_predictions(decoded_test, "test_predictions.iob2")

@@ -1,21 +1,36 @@
 import sys
 
 def readNlu(path):
-    # reads labels from last column, assumes conll-like file
-    # with 1 word per line, tab separation, and empty lines
-    # for sentence splits. The BIO annotation is expected in the
-    # third column (index 2), following universalNER.
     annotations = []
     cur_annotation = []
     for line in open(path, encoding='utf-8'):
         line = line.strip()
-        if line == '':
-            annotations.append(cur_annotation)
-            cur_annotation = []
-        elif line[0] == '#' and len(line.split('\t')) == 1:
+        
+        # Skip metadata lines
+        if line.startswith('#'):
             continue
-        else:
-            cur_annotation.append(line.split('\t')[2])
+            
+        # If line is empty, it's the end of a sentence
+        if not line:
+            if cur_annotation:
+                annotations.append(cur_annotation)
+                cur_annotation = []
+            continue
+        
+        parts = line.split('\t')
+        
+        # LOGIC FOR GOLD FILE (5+ columns)
+        if len(parts) >= 3 and parts[0].isdigit():
+            # In your gold sample: 1[0] What[1] O[2] -[3] -[4]
+            cur_annotation.append(parts[2])
+            
+        # LOGIC FOR YOUR PRED FILE (3 columns)
+        elif len(parts) == 3:
+            # In your pred sample: What[0] -[1] O[2]
+            cur_annotation.append(parts[2])
+            
+    if cur_annotation:
+        annotations.append(cur_annotation)
     return annotations
 
 def toSpans(tags):
