@@ -108,20 +108,20 @@ class TaggerModel(torch.nn.Module):
     def __init__(self, nwords, ntags):
         super().__init__()
         self.word_embedding = nn.Embedding(nwords, DIM_EMBEDDING)
-        self.rnn = nn.RNN(DIM_EMBEDDING, RNN_HIDDEN, batch_first=True)
+        self.rnn = nn.LSTM(DIM_EMBEDDING, RNN_HIDDEN, batch_first=True) #edited
         self.hidden_to_tag = nn.Linear(RNN_HIDDEN, ntags)
-        
-    def forward(self, inputData):
+    
+    def forward(self, inputData):                               #also edited
         word_vectors = self.word_embedding(inputData)
-        rnn_out, _ = self.rnn(word_vectors)
-        tag_space = self.hidden_to_tag(rnn_out)
+        lstm_out, _ = self.rnn(word_vectors)  # ignore (h, c)
+        tag_space = self.hidden_to_tag(lstm_out)
         return tag_space
     
 torch.manual_seed(0)
 DIM_EMBEDDING = 100
 RNN_HIDDEN = 50
 BATCH_SIZE = 16
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.01        #Epoch 9: Loss = 9.0330583427276 -- for learning rate 0.001 , # Epoch 9: Loss = 7.238125507701625 -- for 0.01
 EPOCHS = 10
 
 train_data = read_iob2_file('en_ewt-ud-train.iob2')
@@ -169,4 +169,4 @@ for epoch in range(EPOCHS):
 test_preds = predict(model, test_x)
 decoded_test = decode_predictions(test_preds, label_vocab, test_data)
 
-save_predictions(decoded_test, "test_predictions.iob2")
+save_predictions(decoded_test, "test_predictions_LSTM.iob2")
