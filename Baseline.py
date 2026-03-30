@@ -94,19 +94,17 @@ def decode_predictions(preds, label_vocab, original_data):
 
     return decoded
 
-def save_predictions(decoded_data, filename):
-    with open(filename, "w", encoding="utf-8") as f:
-        for sentence in decoded_data:
-            for word, tag in sentence:
-                # We write: Word [TAB] Dummy [TAB] Tag
-                # This ensures the Tag is at index [2] for span_f1.py
-                f.write(f"{word}\t-\t{tag}\n")
-            f.write("\n")
+# def save_predictions(decoded_data, filename):
+#     with open(filename, "w", encoding="utf-8") as f:
+#         for sentence in decoded_data:
+#             for word, tag in sentence:
+#                 # We write: Word [TAB] Dummy [TAB] Tag
+#                 # This ensures the Tag is at index [2] for span_f1.py
+#                 f.write(f"{word}\t-\t{tag}\n")
+#             f.write("\n")
 
-def save_predictions(decoded_data, filename):
-    """
-    Saves predictions in the same format as training data: index \t word \t tag \t - \t -
-    """
+def save_predictions(decoded_data, filename):       #new save function (saves in the same format as train)
+
     with open(filename, "w", encoding="utf-8") as f:
         for sentence in decoded_data:
             for i, (word, tag) in enumerate(sentence, start=1):
