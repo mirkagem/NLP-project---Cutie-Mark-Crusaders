@@ -108,8 +108,8 @@ class TaggerModel(torch.nn.Module):
     def __init__(self, nwords, ntags):
         super().__init__()
         self.word_embedding = nn.Embedding(nwords, DIM_EMBEDDING)
-        self.rnn = nn.LSTM(DIM_EMBEDDING, RNN_HIDDEN, batch_first=True) #edited
-        self.hidden_to_tag = nn.Linear(RNN_HIDDEN, ntags)
+        self.rnn = nn.LSTM(DIM_EMBEDDING, RNN_HIDDEN, batch_first=True, bidirectional=True) #edited -- yes, we call it RNN but it is LSTM
+        self.hidden_to_tag = nn.Linear(RNN_HIDDEN*2, ntags)             #edited (*2)
     
     def forward(self, inputData):                               #also edited
         word_vectors = self.word_embedding(inputData)

@@ -4,7 +4,7 @@
 4	get	O	-	-
 5	morcillas	O	-	-
 6	in	O	-	-
-7	tampa	B-LOC	-	-
+7	tampa	O	-	-
 8	bay	O	-	-
 9	,	O	-	-
 10	I	O	-	-
@@ -42,19 +42,19 @@
 17	Bay	I-LOC	-	-
 18	that	O	-	-
 19	sells	O	-	-
-20	morcillas	I-LOC	-	-
+20	morcillas	O	-	-
 21	,	O	-	-
 22	also	O	-	-
 23	known	O	-	-
 24	as	O	-	-
 25	blood	O	-	-
-26	pudding	B-PER	-	-
+26	pudding	O	-	-
 27	,	O	-	-
 28	black	O	-	-
 29	pudding	O	-	-
 30	and	O	-	-
 31	blood	O	-	-
-32	sausages	B-LOC	-	-
+32	sausages	O	-	-
 33	.	O	-	-
 
 1	I	O	-	-
@@ -70,7 +70,7 @@
 11	across	O	-	-
 12	the	O	-	-
 13	North	B-LOC	-	-
-14	American	O	-	-
+14	American	I-LOC	-	-
 15	region	I-LOC	-	-
 16	.	O	-	-
 
@@ -93,7 +93,7 @@
 17	,	O	-	-
 18	including	O	-	-
 19	blood	O	-	-
-20	sausages	B-LOC	-	-
+20	sausages	O	-	-
 21	!	O	-	-
 
 1	So	O	-	-
@@ -143,7 +143,7 @@
 25	from	O	-	-
 26	animals	O	-	-
 27	,	O	-	-
-28	ewww	B-LOC	-	-
+28	ewww	O	-	-
 
 1	Miramar	O	-	-
 2	?	O	-	-
@@ -211,11 +211,11 @@
 
 1	i	O	-	-
 2	think	O	-	-
-3	Miramar	B-PER	-	-
+3	Miramar	O	-	-
 4	was	O	-	-
 5	a	O	-	-
 6	famous	O	-	-
-7	goat	B-LOC	-	-
+7	goat	O	-	-
 8	trainer	O	-	-
 9	or	O	-	-
 10	something	O	-	-
@@ -230,7 +230,7 @@
 3	you	O	-	-
 4	eat	O	-	-
 5	in	O	-	-
-6	Miramar	B-LOC	-	-
+6	Miramar	O	-	-
 7	?	O	-	-
 
 1	Food	O	-	-
@@ -253,7 +253,7 @@
 18	,	O	-	-
 19	steak	O	-	-
 20	,	O	-	-
-21	ect	B-LOC	-	-
+21	ect	O	-	-
 22	.	O	-	-
 
 1	Try	O	-	-
@@ -278,7 +278,7 @@
 1	How	O	-	-
 2	about	O	-	-
 3	empanadas	O	-	-
-4	arabes	B-LOC	-	-
+4	arabes	O	-	-
 5	or	O	-	-
 6	other	O	-	-
 7	empanadas	O	-	-
@@ -352,9 +352,9 @@
 13	of	O	-	-
 14	it	O	-	-
 
-1	Boy	I-PER	-	-
+1	Boy	O	-	-
 2	trouble	O	-	-
-3	?????????????????????????????????????????????????????????	B-PER	-	-
+3	?????????????????????????????????????????????????????????	O	-	-
 
 1	ok	O	-	-
 2	well	O	-	-
@@ -516,9 +516,9 @@
 12	King	I-ORG	-	-
 13	,	O	-	-
 14	Taco	B-LOC	-	-
-15	Bell	I-LOC	-	-
+15	Bell	O	-	-
 16	,	O	-	-
-17	Wendy	B-LOC	-	-
+17	Wendy	B-PER	-	-
 18	s	O	-	-
 19	?	O	-	-
 
@@ -604,7 +604,7 @@
 8	May	O	-	-
 9	26	O	-	-
 10	,	O	-	-
-11	1955	B-LOC	-	-
+11	1955	O	-	-
 12	.	O	-	-
 
 1	Miramar	O	-	-
@@ -621,7 +621,7 @@
 4	you	O	-	-
 5	eat	O	-	-
 6	in	O	-	-
-7	Miramar	B-LOC	-	-
+7	Miramar	O	-	-
 8	?	O	-	-
 
 1	Argentinian	O	-	-
@@ -652,7 +652,7 @@
 3	the	O	-	-
 4	city	O	-	-
 5	called	O	-	-
-6	Miramar	B-PER	-	-
+6	Miramar	O	-	-
 7	?	O	-	-
 
 1	I	O	-	-
@@ -694,7 +694,7 @@
 4	of	O	-	-
 5	towns	O	-	-
 6	called	O	-	-
-7	Miramar	B-PER	-	-
+7	Miramar	O	-	-
 8	,	O	-	-
 9	it	O	-	-
 10	'd	O	-	-
@@ -818,9 +818,9 @@
 7	foreigner	O	-	-
 8	living	O	-	-
 9	in	O	-	-
-10	malaysia	B-LOC	-	-
+10	malaysia	O	-	-
 11	,	O	-	-
-12	german	B-LOC	-	-
+12	german	O	-	-
 13	citizen	O	-	-
 14	,	O	-	-
 15	21	O	-	-
@@ -1099,7 +1099,7 @@
 9	Del	B-ORG	-	-
 10	Frisco	I-ORG	-	-
 11	's	O	-	-
-12	Philadelphia	B-ORG	-	-
+12	Philadelphia	B-PER	-	-
 13	?	O	-	-
 
 1	I	O	-	-
@@ -1151,7 +1151,7 @@
 
 1	5765	O	-	-
 2	-	O	-	-
-3	NTKB	B-LOC	-	-
+3	NTKB	O	-	-
 
 1	you	O	-	-
 2	can	O	-	-
@@ -1170,7 +1170,7 @@
 9	Del	B-ORG	-	-
 10	Frisco	I-ORG	-	-
 11	's	O	-	-
-12	Philadelphia	B-ORG	-	-
+12	Philadelphia	B-PER	-	-
 13	?	O	-	-
 
 1	My	O	-	-
@@ -1242,8 +1242,8 @@
 6	a	O	-	-
 7	job	O	-	-
 8	at	O	-	-
-9	Cracker	B-LOC	-	-
-10	Barrel	I-LOC	-	-
+9	Cracker	O	-	-
+10	Barrel	O	-	-
 11	,	O	-	-
 12	but	O	-	-
 13	I	O	-	-
@@ -1350,7 +1350,7 @@
 4	live	O	-	-
 5	in	O	-	-
 6	San	B-LOC	-	-
-7	Rafael	I-LOC	-	-
+7	Rafael	O	-	-
 8	Ca	O	-	-
 9	like	O	-	-
 10	by	O	-	-
@@ -1359,7 +1359,7 @@
 13	pueble	O	-	-
 14	and	O	-	-
 15	the	O	-	-
-16	Home	O	-	-
+16	Home	B-ORG	-	-
 17	Depot	I-ORG	-	-
 18	..	O	-	-
 19	what	O	-	-
@@ -1420,8 +1420,8 @@
 3	San	B-LOC	-	-
 4	Jose	I-LOC	-	-
 5	,	O	-	-
-6	Palo	B-LOC	-	-
-7	Alto	I-ORG	-	-
+6	Palo	O	-	-
+7	Alto	B-ORG	-	-
 8	,	O	-	-
 9	San	B-LOC	-	-
 10	Francisco	I-LOC	-	-
@@ -1458,7 +1458,7 @@
 7	the	O	-	-
 8	flag	O	-	-
 9	of	O	-	-
-10	South	O	-	-
+10	South	B-LOC	-	-
 11	Vietnam	I-LOC	-	-
 12	in	O	-	-
 13	Modern	O	-	-
@@ -1554,7 +1554,7 @@
 5	HHa	O	-	-
 6	training	O	-	-
 7	in	O	-	-
-8	Delaware	B-LOC	-	-
+8	Delaware	O	-	-
 9	?	O	-	-
 
 1	I	O	-	-
@@ -1583,7 +1583,7 @@
 24	get	O	-	-
 25	certified	O	-	-
 26	in	O	-	-
-27	delaware	B-LOC	-	-
+27	delaware	O	-	-
 28	?	O	-	-
 
 1	How	O	-	-
@@ -1682,7 +1682,7 @@
 12	cheap	O	-	-
 13	.	O	-	-
 
-1	Wellington	B-ORG	-	-
+1	Wellington	B-LOC	-	-
 2	sign	O	-	-
 3	poll	O	-	-
 4	.	O	-	-
@@ -1819,7 +1819,7 @@
 21	great	O	-	-
 22	restaurant	O	-	-
 23	in	O	-	-
-24	sf	B-LOC	-	-
+24	sf	O	-	-
 25	or	O	-	-
 26	other	O	-	-
 27	nearby	O	-	-
@@ -1838,8 +1838,8 @@
 11	's	O	-	-
 12	right	O	-	-
 13	by	O	-	-
-14	Civic	O	-	-
-15	Center	B-ORG	-	-
+14	Civic	B-PER	-	-
+15	Center	I-LOC	-	-
 16	,	O	-	-
 17	so	O	-	-
 18	you	O	-	-
@@ -1854,18 +1854,18 @@
 27	House	I-LOC	-	-
 28	,	O	-	-
 29	City	B-LOC	-	-
-30	Hall	I-PER	-	-
+30	Hall	B-ORG	-	-
 31	,	O	-	-
-32	Symphony	B-LOC	-	-
-33	Auditorium	I-LOC	-	-
+32	Symphony	O	-	-
+33	Auditorium	O	-	-
 34	...	O	-	-
 35	all	O	-	-
 36	very	O	-	-
 37	beautiful	O	-	-
 38	.	O	-	-
 
-1	Prime	O	-	-
-2	Rib	B-ORG	-	-
+1	Prime	B-ORG	-	-
+2	Rib	I-ORG	-	-
 3	s	I-ORG	-	-
 
 1	it	O	-	-
@@ -1949,7 +1949,7 @@
 4	into	O	-	-
 5	war	O	-	-
 
-1	Global	I-ORG	-	-
+1	Global	O	-	-
 2	reasons	O	-	-
 3	for	O	-	-
 4	conflict	O	-	-
@@ -1963,7 +1963,7 @@
 1	cost	O	-	-
 2	of	O	-	-
 3	the	O	-	-
-4	U.S.	B-ORG	-	-
+4	U.S.	B-LOC	-	-
 5	in	O	-	-
 6	money	O	-	-
 7	and	O	-	-
@@ -2142,7 +2142,7 @@
 5	in	O	-	-
 6	San	B-LOC	-	-
 7	Francisco	I-LOC	-	-
-8	-	I-LOC	-	-
+8	-	O	-	-
 9	what	O	-	-
 10	are	O	-	-
 11	the	O	-	-
@@ -2206,7 +2206,7 @@
 10	to	O	-	-
 11	see	O	-	-
 12	,	O	-	-
-13	geiven	B-LOC	-	-
+13	geiven	O	-	-
 14	that	O	-	-
 15	we	O	-	-
 16	only	O	-	-
@@ -2254,7 +2254,7 @@
 11	GG	O	-	-
 12	Bridge	O	-	-
 13	,	O	-	-
-14	Haight	O	-	-
+14	Haight	B-LOC	-	-
 15	,	O	-	-
 16	Chinatown	B-LOC	-	-
 17	,	O	-	-
@@ -2310,7 +2310,7 @@
 2	restraunts	O	-	-
 3	close	O	-	-
 4	to	O	-	-
-5	Orchestra	B-LOC	-	-
+5	Orchestra	O	-	-
 6	Hall	I-PER	-	-
 7	in	O	-	-
 8	Chicago	B-LOC	-	-
@@ -2331,7 +2331,7 @@
 13	the	O	-	-
 14	Chicago	B-LOC	-	-
 15	Symphony	I-LOC	-	-
-16	Orchestra	I-LOC	-	-
+16	Orchestra	O	-	-
 17	.	O	-	-
 
 1	Before	O	-	-
@@ -2786,7 +2786,7 @@
 10	be	O	-	-
 11	going	O	-	-
 12	to	O	-	-
-13	Fiji	B-LOC	-	-
+13	Fiji	O	-	-
 14	before	O	-	-
 15	heading	O	-	-
 16	back	O	-	-
@@ -2956,7 +2956,7 @@
 3	's	O	-	-
 4	camp	O	-	-
 5	in	O	-	-
-6	baguio	B-LOC	-	-
+6	baguio	O	-	-
 7	also	O	-	-
 8	accomodate	O	-	-
 9	even	O	-	-
@@ -2970,7 +2970,7 @@
 4	be	O	-	-
 5	going	O	-	-
 6	to	O	-	-
-7	baguio	B-LOC	-	-
+7	baguio	O	-	-
 8	alone	O	-	-
 9	and	O	-	-
 10	i	O	-	-
@@ -3018,7 +3018,7 @@
 
 1	is	O	-	-
 2	gare	O	-	-
-3	montparnasse	O	-	-
+3	montparnasse	I-LOC	-	-
 4	storage	O	-	-
 5	still	O	-	-
 6	available	O	-	-
@@ -3063,7 +3063,7 @@
 2	m	O	-	-
 3	traveling	O	-	-
 4	to	O	-	-
-5	lourdes	B-LOC	-	-
+5	lourdes	O	-	-
 6	for	O	-	-
 7	a	O	-	-
 8	day	O	-	-
@@ -3149,7 +3149,7 @@
 2	people	O	-	-
 3	Bare	O	-	-
 4	-	O	-	-
-5	knuckle	B-LOC	-	-
+5	knuckle	O	-	-
 6	box	O	-	-
 7	in	O	-	-
 8	Ireland	B-LOC	-	-
@@ -3210,8 +3210,8 @@
 5	a	O	-	-
 6	man	O	-	-
 7	from	O	-	-
-8	brittany	B-LOC	-	-
-9	france	I-LOC	-	-
+8	brittany	O	-	-
+9	france	I-ORG	-	-
 10	for	O	-	-
 11	a	O	-	-
 12	couple	O	-	-
@@ -3385,7 +3385,7 @@
 2	sx40	O	-	-
 3	or	O	-	-
 4	canon	B-ORG	-	-
-5	s100	I-ORG	-	-
+5	s100	O	-	-
 6	?	O	-	-
 
 1	Which	O	-	-
@@ -3430,7 +3430,7 @@
 15	faster	O	-	-
 16	lens	O	-	-
 17	at	O	-	-
-18	f/2	B-LOC	-	-
+18	f/2	O	-	-
 19	and	O	-	-
 20	the	O	-	-
 21	SX40	O	-	-
@@ -3481,7 +3481,7 @@
 8	migratory	O	-	-
 9	birds	O	-	-
 10	in	O	-	-
-11	punjab	B-LOC	-	-
+11	punjab	O	-	-
 12	?	O	-	-
 
 1	actually	O	-	-
@@ -3505,7 +3505,7 @@
 19	migratory	O	-	-
 20	birds	O	-	-
 21	in	O	-	-
-22	punjab	B-LOC	-	-
+22	punjab	O	-	-
 
 1	I	O	-	-
 2	do	O	-	-
@@ -3676,7 +3676,7 @@
 36	you	O	-	-
 37	have	O	-	-
 38	to	O	-	-
-39	Cary	B-LOC	-	-
+39	Cary	O	-	-
 40	it	O	-	-
 41	with	O	-	-
 42	you	O	-	-
@@ -3791,7 +3791,7 @@
 
 1	Technically	O	-	-
 2	,	O	-	-
-3	blackberry	B-LOC	-	-
+3	blackberry	O	-	-
 4	was	O	-	-
 5	because	O	-	-
 6	it	O	-	-
@@ -3854,7 +3854,7 @@
 10	to	O	-	-
 11	work	O	-	-
 12	in	O	-	-
-13	forensic	B-LOC	-	-
+13	forensic	O	-	-
 14	so	O	-	-
 15	what	O	-	-
 16	else	O	-	-
@@ -4083,7 +4083,7 @@
 3	the	O	-	-
 4	650	O	-	-
 5	k	O	-	-
-6	est	B-PER	-	-
+6	est	O	-	-
 7	stolen	O	-	-
 8	works	O	-	-
 9	of	O	-	-
@@ -4103,7 +4103,7 @@
 23	are	O	-	-
 24	thousands	O	-	-
 25	in	O	-	-
-26	musems	B-LOC	-	-
+26	musems	O	-	-
 27	that	O	-	-
 28	have	O	-	-
 29	n't	O	-	-
@@ -4123,7 +4123,7 @@
 3	the	O	-	-
 4	nearest	O	-	-
 5	National	B-ORG	-	-
-6	Park	I-ORG	-	-
+6	Park	I-LOC	-	-
 7	to	O	-	-
 8	Birmingham	B-LOC	-	-
 9	,	O	-	-
@@ -4142,9 +4142,9 @@
 10	.	O	-	-
 
 1	The	O	-	-
-2	South	B-LOC	-	-
-3	Shropshire	I-LOC	-	-
-4	Hills	I-LOC	-	-
+2	South	O	-	-
+3	Shropshire	O	-	-
+4	Hills	O	-	-
 5	are	O	-	-
 6	far	O	-	-
 7	closer	O	-	-
@@ -4180,22 +4180,22 @@
 13	noida	O	-	-
 14	?	O	-	-
 
-1	UP	I-ORG	-	-
+1	UP	O	-	-
 2	Roadways	O	-	-
 3	buses	O	-	-
 4	ply	O	-	-
 5	frequently	O	-	-
 6	between	O	-	-
-7	Sector	B-LOC	-	-
+7	Sector	O	-	-
 8	-	O	-	-
 9	37	O	-	-
 10	crossing	O	-	-
 11	in	O	-	-
-12	Noida	B-LOC	-	-
+12	Noida	O	-	-
 13	and	O	-	-
-14	Kasna	B-LOC	-	-
+14	Kasna	O	-	-
 15	in	O	-	-
-16	Greater	B-LOC	-	-
+16	Greater	O	-	-
 17	Noida	I-LOC	-	-
 18	,	O	-	-
 19	passing	O	-	-
@@ -4215,7 +4215,7 @@
 9	ferry	O	-	-
 10	passengers	O	-	-
 11	between	O	-	-
-12	Sector	B-LOC	-	-
+12	Sector	O	-	-
 13	-	O	-	-
 14	37	O	-	-
 15	crossing	O	-	-
@@ -4254,7 +4254,7 @@
 12	between	O	-	-
 13	Noida	O	-	-
 14	to	O	-	-
-15	Greater	B-LOC	-	-
+15	Greater	O	-	-
 16	Noida	O	-	-
 17	.	O	-	-
 
@@ -4266,12 +4266,12 @@
 
 1	Buses	O	-	-
 2	,	O	-	-
-3	DTC	B-LOC	-	-
+3	DTC	O	-	-
 4	Buses	O	-	-
 5	,	O	-	-
 6	Call	O	-	-
-7	Center	B-ORG	-	-
-8	Cabs	I-LOC	-	-
+7	Center	B-LOC	-	-
+8	Cabs	O	-	-
 9	,	O	-	-
 10	Private	O	-	-
 11	white	O	-	-
@@ -4281,10 +4281,10 @@
 15	frequently	O	-	-
 16	running	O	-	-
 17	between	O	-	-
-18	Noida	B-LOC	-	-
+18	Noida	O	-	-
 19	and	O	-	-
-20	Greater	B-LOC	-	-
-21	Noida	I-LOC	-	-
+20	Greater	O	-	-
+21	Noida	O	-	-
 22	.	O	-	-
 
 1	You	O	-	-
@@ -4296,11 +4296,11 @@
 7	Oil	O	-	-
 8	Building	O	-	-
 9	,	O	-	-
-10	Sector	B-LOC	-	-
+10	Sector	O	-	-
 11	-	O	-	-
 12	37	O	-	-
 13	,	O	-	-
-14	Taj	B-LOC	-	-
+14	Taj	B-ORG	-	-
 15	Express	I-ORG	-	-
 16	Road	I-LOC	-	-
 17	(	O	-	-
@@ -4483,7 +4483,7 @@
 26	hold	O	-	-
 27	.	O	-	-
 
-1	Fish	I-ORG	-	-
+1	Fish	O	-	-
 2	are	O	-	-
 3	probably	O	-	-
 4	the	O	-	-
@@ -4631,7 +4631,7 @@
 2	could	O	-	-
 3	call	O	-	-
 4	him	O	-	-
-5	r2	B-LOC	-	-
+5	r2	O	-	-
 6	for	O	-	-
 7	short	O	-	-
 
@@ -4953,7 +4953,7 @@
 
 1	Privacy	O	-	-
 2	in	O	-	-
-3	kerala	B-LOC	-	-
+3	kerala	O	-	-
 4	,	O	-	-
 5	help	O	-	-
 6	pls	O	-	-
@@ -4972,18 +4972,18 @@
 11	gf	O	-	-
 12	..	O	-	-
 13	in	O	-	-
-14	kerala	B-LOC	-	-
+14	kerala	O	-	-
 15	..	O	-	-
 16	in	O	-	-
 17	which	O	-	-
 18	all	O	-	-
 19	places	O	-	-
 20	in	O	-	-
-21	kerala	B-LOC	-	-
+21	kerala	O	-	-
 22	shal	O	-	-
 23	i	O	-	-
 24	expect	O	-	-
-25	ambience	B-LOC	-	-
+25	ambience	O	-	-
 26	and	O	-	-
 27	privacy	O	-	-
 28	for	O	-	-
@@ -5011,19 +5011,19 @@
 13	The	O	-	-
 14	RAVIZ	O	-	-
 15	in	O	-	-
-16	kollam	B-LOC	-	-
+16	kollam	O	-	-
 17	@	O	-	-
-18	da	B-LOC	-	-
-19	syd	I-LOC	-	-
+18	da	O	-	-
+19	syd	O	-	-
 20	f	O	-	-
 21	Ashtamudi	O	-	-
-22	Lake	B-LOC	-	-
+22	Lake	I-ORG	-	-
 23	in	O	-	-
-24	kollam	B-LOC	-	-
+24	kollam	O	-	-
 
 1	Houseboat	O	-	-
 2	in	O	-	-
-3	Kerala	B-LOC	-	-
+3	Kerala	O	-	-
 4	is	O	-	-
 5	a	O	-	-
 6	good	O	-	-
@@ -5337,8 +5337,8 @@
 2	she	O	-	-
 3	is	O	-	-
 4	the	O	-	-
-5	STAR	O	-	-
-6	of	O	-	-
+5	STAR	B-ORG	-	-
+6	of	I-ORG	-	-
 7	the	O	-	-
 8	family	O	-	-
 9	.	O	-	-
@@ -5378,7 +5378,7 @@
 2	cat	O	-	-
 3	s	O	-	-
 4	Called	O	-	-
-5	Frank	I-PER	-	-
+5	Frank	B-PER	-	-
 6	because	O	-	-
 7	the	O	-	-
 8	year	O	-	-
@@ -5400,7 +5400,7 @@
 6	eyes	O	-	-
 7	like	O	-	-
 8	Frank	B-PER	-	-
-9	Sinatra	I-LOC	-	-
+9	Sinatra	I-PER	-	-
 10	did	O	-	-
 11	:)	O	-	-
 
@@ -5410,22 +5410,22 @@
 4	meet	O	-	-
 5	girls	O	-	-
 6	from	O	-	-
-7	san	B-LOC	-	-
-8	francisco	I-LOC	-	-
+7	san	O	-	-
+8	francisco	O	-	-
 9	i	O	-	-
 10	am	O	-	-
 11	from	O	-	-
-12	mexico	B-LOC	-	-
+12	mexico	O	-	-
 13	?	O	-	-
 
 1	i	O	-	-
 2	am	O	-	-
 3	from	O	-	-
-4	mexico	B-LOC	-	-
+4	mexico	O	-	-
 5	traveling	O	-	-
 6	to	O	-	-
-7	san	B-LOC	-	-
-8	francisco	I-LOC	-	-
+7	san	O	-	-
+8	francisco	O	-	-
 9	california	O	-	-
 10	one	O	-	-
 11	week	O	-	-
@@ -5600,9 +5600,9 @@
 2	runs	O	-	-
 3	from	O	-	-
 4	London	B-LOC	-	-
-5	St	I-PER	-	-
-6	Pancras	I-LOC	-	-
-7	station	O	-	-
+5	St	I-LOC	-	-
+6	Pancras	O	-	-
+7	station	I-LOC	-	-
 8	.	O	-	-
 
 1	Renee	B-PER	-	-
@@ -5740,7 +5740,7 @@
 18	day	O	-	-
 19	prior	O	-	-
 20	to	O	-	-
-21	notifying	B-LOC	-	-
+21	notifying	O	-	-
 22	the	O	-	-
 23	transfer	O	-	-
 24	agent	O	-	-
@@ -5810,9 +5810,9 @@
 12	recordkeeping	O	-	-
 13	services	O	-	-
 14	from	O	-	-
-15	NTRC	B-LOC	-	-
+15	NTRC	O	-	-
 16	to	O	-	-
-17	Hewitt	B-LOC	-	-
+17	Hewitt	O	-	-
 18	.	O	-	-
 
 1	As	O	-	-
@@ -5916,7 +5916,7 @@
 1	Thank	O	-	-
 2	you	O	-	-
 3	for	O	-	-
-4	digging	B-LOC	-	-
+4	digging	O	-	-
 5	in	O	-	-
 6	to	O	-	-
 7	the	O	-	-
@@ -6058,7 +6058,7 @@
 7	the	O	-	-
 8	quotes	O	-	-
 9	from	O	-	-
-10	Pauline	B-LOC	-	-
+10	Pauline	O	-	-
 11	.	O	-	-
 
 1	I	O	-	-
@@ -6239,7 +6239,7 @@
 25	at	O	-	-
 26	fm78	B-LOC	-	-
 27	&	O	-	-
-28	walzem	B-LOC	-	-
+28	walzem	O	-	-
 29	had	O	-	-
 30	both	O	-	-
 31	sold	O	-	-
@@ -6450,8 +6450,8 @@
 7	Sheetal	O	-	-
 8	Patel	I-LOC	-	-
 9	,	O	-	-
-10	Johnathan	B-LOC	-	-
-11	Anderson	I-PER	-	-
+10	Johnathan	O	-	-
+11	Anderson	I-ORG	-	-
 
 1	Associate	O	-	-
 2	Team	O	-	-
@@ -6465,7 +6465,7 @@
 5	Coach	O	-	-
 6	:	O	-	-
 7	Ben	B-PER	-	-
-8	Markey	I-PER	-	-
+8	Markey	I-LOC	-	-
 
 1	Mary	B-PER	-	-
 2	John	B-PER	-	-
@@ -6473,7 +6473,7 @@
 4	Russell	B-PER	-	-
 5	Dyk	I-PER	-	-
 6	,	O	-	-
-7	Webb	B-LOC	-	-
+7	Webb	O	-	-
 8	Jennings	O	-	-
 9	,	O	-	-
 10	Martin	B-PER	-	-
@@ -6489,14 +6489,14 @@
 8	Coach	O	-	-
 9	:	O	-	-
 10	Melanie	B-PER	-	-
-11	King	O	-	-
+11	King	I-PER	-	-
 12	Brandon	O	-	-
 13	Luna	O	-	-
 14	-	O	-	-
 15	Analyst	O	-	-
 16	,	O	-	-
 17	Bryan	O	-	-
-18	Hull	O	-	-
+18	Hull	I-LOC	-	-
 19	-	O	-	-
 20	Analyst	O	-	-
 21	,	O	-	-
@@ -6534,7 +6534,7 @@
 5	MILLIONS	O	-	-
 6	FOR	O	-	-
 7	UNITED	B-ORG	-	-
-8	WAY	O	-	-
+8	WAY	I-ORG	-	-
 9	?	O	-	-
 
 1	We	O	-	-
@@ -6545,7 +6545,7 @@
 
 1	How	O	-	-
 2	to	O	-	-
-3	Pledge	B-LOC	-	-
+3	Pledge	O	-	-
 4	:	O	-	-
 
 1	This	O	-	-
@@ -6565,11 +6565,11 @@
 3	in	O	-	-
 4	the	O	-	-
 5	following	O	-	-
-6	United	B-ORG	-	-
-7	Way	I-ORG	-	-
+6	United	B-LOC	-	-
+7	Way	O	-	-
 8	link	O	-	-
 9	,	O	-	-
-10	http://unitedway.enron.com	B-PER	-	-
+10	http://unitedway.enron.com	O	-	-
 11	or	O	-	-
 12	go	O	-	-
 13	directly	O	-	-
@@ -6577,11 +6577,11 @@
 15	Internet	O	-	-
 16	Explorer	O	-	-
 17	or	O	-	-
-18	Netscape	B-LOC	-	-
+18	Netscape	O	-	-
 19	and	O	-	-
 20	type	O	-	-
 21	in	O	-	-
-22	unitedway.enron.com	B-LOC	-	-
+22	unitedway.enron.com	O	-	-
 23	in	O	-	-
 24	the	O	-	-
 25	address	O	-	-
@@ -6597,8 +6597,8 @@
 7	to	O	-	-
 8	Enron	B-ORG	-	-
 9	's	O	-	-
-10	United	B-ORG	-	-
-11	Way	I-ORG	-	-
+10	United	B-LOC	-	-
+11	Way	O	-	-
 12	2000	O	-	-
 13	Campaign	O	-	-
 14	site	O	-	-
@@ -6722,7 +6722,7 @@
 14	.	O	-	-
 
 1	Christa	O	-	-
-2	Winfrey	I-PER	-	-
+2	Winfrey	B-LOC	-	-
 
 1	08/08/2000	O	-	-
 2	11:36	O	-	-
@@ -6850,12 +6850,12 @@
 19	Loretta	B-PER	-	-
 20	Lynch	I-PER	-	-
 21	to	O	-	-
-22	expeditiously	B-LOC	-	-
+22	expeditiously	O	-	-
 23	implement	O	-	-
 24	the	O	-	-
 25	provision	O	-	-
 26	to	O	-	-
-27	suspend	B-LOC	-	-
+27	suspend	O	-	-
 28	all	O	-	-
 29	parties	O	-	-
 30	auhtority	O	-	-
@@ -6879,7 +6879,7 @@
 10	that	O	-	-
 11	if	O	-	-
 12	they	O	-	-
-13	expeditiously	B-PER	-	-
+13	expeditiously	O	-	-
 14	suspend	O	-	-
 15	everyone	O	-	-
 16	's	O	-	-
@@ -6927,7 +6927,7 @@
 1	I.E.	O	-	-
 2	the	O	-	-
 3	Davis	B-PER	-	-
-4	Administration	I-PER	-	-
+4	Administration	I-ORG	-	-
 5	wants	O	-	-
 6	to	O	-	-
 7	place	O	-	-
@@ -6941,7 +6941,7 @@
 15	of	O	-	-
 16	having	O	-	-
 17	to	O	-	-
-18	justify	B-LOC	-	-
+18	justify	O	-	-
 19	why	O	-	-
 20	each	O	-	-
 21	and	O	-	-
@@ -7259,7 +7259,7 @@
 1	Michael	B-PER	-	-
 2	J.	I-PER	-	-
 3	McDermott	I-PER	-	-
-4	mjmcdermott@hotmail.com	I-PER	-	-
+4	mjmcdermott@hotmail.com	O	-	-
 
 1	_________________________________________________________________	O	-	-
 
@@ -7271,7 +7271,7 @@
 6	MSN	O	-	-
 7	Explorer	O	-	-
 8	at	O	-	-
-9	http://explorer.msn.com/intl.asp	B-LOC	-	-
+9	http://explorer.msn.com/intl.asp	O	-	-
 
 1	For	O	-	-
 2	me	O	-	-
@@ -7324,7 +7324,7 @@
 12	.	O	-	-
 
 1	Enron	B-ORG	-	-
-2	continues	B-ORG	-	-
+2	continues	O	-	-
 3	to	O	-	-
 4	feel	O	-	-
 5	free	O	-	-
@@ -7488,11 +7488,11 @@
 3	.	O	-	-
 
 1	-	O	-	-
-2	TEXT.htm	B-LOC	-	-
+2	TEXT.htm	O	-	-
 3	<<	O	-	-
 4	File	O	-	-
 5	:	O	-	-
-6	TEXT.htm	B-LOC	-	-
+6	TEXT.htm	O	-	-
 7	>>	O	-	-
 
 1	I	O	-	-
@@ -7527,7 +7527,7 @@
 1	How	O	-	-
 2	about	O	-	-
 3	skidoo	O	-	-
-4	skis	B-LOC	-	-
+4	skis	O	-	-
 5	for	O	-	-
 6	the	O	-	-
 7	front	O	-	-
@@ -7703,7 +7703,7 @@
 3	the	O	-	-
 4	result	O	-	-
 5	from	O	-	-
-6	Ordinary	B-LOC	-	-
+6	Ordinary	O	-	-
 7	Least	O	-	-
 8	Squares	O	-	-
 9	was	O	-	-
@@ -7734,7 +7734,7 @@
 1	Intercept	O	-	-
 2	:	O	-	-
 3	-	O	-	-
-4	0.3931	B-LOC	-	-
+4	0.3931	O	-	-
 5	(	O	-	-
 6	0.0076	O	-	-
 7	)	O	-	-
@@ -7746,8 +7746,8 @@
 5	0.0022	O	-	-
 6	)	O	-	-
 
-1	R	B-PER	-	-
-2	Square	I-LOC	-	-
+1	R	B-LOC	-	-
+2	Square	I-PER	-	-
 3	:	O	-	-
 4	0.0585	O	-	-
 
@@ -7812,7 +7812,7 @@
 6	MSN	O	-	-
 7	Explorer	O	-	-
 8	at	O	-	-
-9	http://explorer.msn.com	B-LOC	-	-
+9	http://explorer.msn.com	O	-	-
 10	<<	O	-	-
 11	File	O	-	-
 12	:	O	-	-
@@ -7864,7 +7864,7 @@
 1	Vince	B-PER	-	-
 
 1	Vince	B-PER	-	-
-2	-	O	-	-
+2	-	I-PER	-	-
 
 1	Thanks	O	-	-
 2	for	O	-	-
@@ -8029,8 +8029,8 @@
 1	I	O	-	-
 2	have	O	-	-
 3	visited	O	-	-
-4	Georgia	B-LOC	-	-
-5	Tech	I-LOC	-	-
+4	Georgia	B-PER	-	-
+5	Tech	O	-	-
 6	on	O	-	-
 7	Thursday	O	-	-
 8	.	O	-	-
@@ -8070,7 +8070,7 @@
 5	as	O	-	-
 6	a	O	-	-
 7	summer	O	-	-
-8	intern	B-PER	-	-
+8	intern	O	-	-
 9	.	O	-	-
 
 1	Vince	B-PER	-	-
@@ -8220,29 +8220,29 @@
 1	************************************************	O	-	-
 
 1	Sungjoo	O	-	-
-2	Lee	I-PER	-	-
+2	Lee	B-PER	-	-
 3	Stochastic	I-PER	-	-
 4	Processes	O	-	-
 5	and	O	-	-
 6	Simulation	O	-	-
 7	in	O	-	-
-8	Finance	B-LOC	-	-
+8	Finance	B-ORG	-	-
 9	Georgia	I-LOC	-	-
 10	Institute	I-LOC	-	-
-11	of	I-ORG	-	-
+11	of	O	-	-
 12	Technology	O	-	-
 13	School	O	-	-
-14	of	I-ORG	-	-
-15	Industrial	B-LOC	-	-
+14	of	O	-	-
+15	Industrial	O	-	-
 16	and	O	-	-
 17	Systems	O	-	-
-18	Engineering	B-LOC	-	-
+18	Engineering	O	-	-
 19	E-mail	O	-	-
 20	address	O	-	-
 21	:	O	-	-
 22	goldconn@isye.gatech.edu	O	-	-
 23	gte114t@prism.gatech.edu	O	-	-
-24	Home	O	-	-
+24	Home	I-ORG	-	-
 25	:	O	-	-
 26	404-449-1026	O	-	-
 27	Office	O	-	-
@@ -8254,19 +8254,19 @@
 1	************************************************	O	-	-
 
 1	-	O	-	-
-2	Lisa_coverletter.doc	B-LOC	-	-
+2	Lisa_coverletter.doc	O	-	-
 3	<<	O	-	-
 4	File	O	-	-
 5	:	O	-	-
-6	Lisa_coverletter.doc	B-LOC	-	-
+6	Lisa_coverletter.doc	O	-	-
 7	>>	O	-	-
 
 1	-	O	-	-
-2	Lisa_resume.doc	B-LOC	-	-
+2	Lisa_resume.doc	O	-	-
 3	<<	O	-	-
 4	File	O	-	-
 5	:	O	-	-
-6	Lisa_resume.doc	B-LOC	-	-
+6	Lisa_resume.doc	O	-	-
 7	>>	O	-	-
 
 1	FYI	O	-	-
@@ -8274,7 +8274,7 @@
 1	Vince	B-PER	-	-
 
 1	P.S.	O	-	-
-2	Tom	O	-	-
+2	Tom	B-PER	-	-
 3	,	O	-	-
 4	Please	O	-	-
 5	,	O	-	-
@@ -8324,7 +8324,7 @@
 8	office	O	-	-
 9	here	O	-	-
 10	at	O	-	-
-11	Azurix	B-LOC	-	-
+11	Azurix	O	-	-
 12	,	O	-	-
 13	and	O	-	-
 14	in	O	-	-
@@ -8343,13 +8343,13 @@
 27	SVP	O	-	-
 28	in	O	-	-
 29	the	O	-	-
-30	LNG	B-ORG	-	-
+30	LNG	O	-	-
 31	development	O	-	-
 32	group	O	-	-
 33	at	O	-	-
 34	El	B-LOC	-	-
 35	Paso	I-LOC	-	-
-36	Energy	B-ORG	-	-
+36	Energy	I-ORG	-	-
 37	.	O	-	-
 
 1	This	O	-	-
@@ -8399,7 +8399,7 @@
 24	do	O	-	-
 25	so	O	-	-
 26	at	O	-	-
-27	RobBrnglsn@aol.com	B-LOC	-	-
+27	RobBrnglsn@aol.com	O	-	-
 28	or	O	-	-
 29	at	O	-	-
 30	713-664-7478	B-LOC	-	-
@@ -8419,8 +8419,8 @@
 12	years	O	-	-
 13	at	O	-	-
 14	Enron	B-ORG	-	-
-15	/	I-ORG	-	-
-16	Azurix	B-LOC	-	-
+15	/	O	-	-
+16	Azurix	O	-	-
 17	,	O	-	-
 18	and	O	-	-
 19	I	O	-	-
@@ -8448,7 +8448,7 @@
 7	hour	O	-	-
 8	tonight	O	-	-
 9	at	O	-	-
-10	Scudeiros	B-LOC	-	-
+10	Scudeiros	O	-	-
 11	on	O	-	-
 12	Dallas	B-LOC	-	-
 13	Street	O	-	-
@@ -8487,7 +8487,7 @@
 2	,	O	-	-
 3	Rod	B-PER	-	-
 4	and	O	-	-
-5	Elyse	B-PER	-	-
+5	Elyse	O	-	-
 6	-	O	-	-
 
 1	Just	O	-	-
@@ -8498,7 +8498,7 @@
 6	meeting	O	-	-
 7	on	O	-	-
 8	Tuesday	O	-	-
-9	Aug	B-PER	-	-
+9	Aug	O	-	-
 10	29th	O	-	-
 11	from	O	-	-
 12	1:30	O	-	-
@@ -8506,7 +8506,7 @@
 14	2:30	O	-	-
 15	to	O	-	-
 16	discuss	O	-	-
-17	U	B-ORG	-	-
+17	U	O	-	-
 18	of	O	-	-
 19	H	O	-	-
 20	's	O	-	-
@@ -8539,18 +8539,18 @@
 1	Traci	O	-	-
 
 1	Traci	O	-	-
-2	Warner	I-LOC	-	-
+2	Warner	B-ORG	-	-
 3	Enron	B-ORG	-	-
 4	Broadband	I-ORG	-	-
 5	Services	I-ORG	-	-
-6	,	O	-	-
+6	,	I-ORG	-	-
 7	Inc.	I-ORG	-	-
 8	Phone	O	-	-
 9	(	O	-	-
 10	713	O	-	-
 11	)	O	-	-
 12	853-3242	O	-	-
-13	Cell	O	-	-
+13	Cell	I-ORG	-	-
 14	(	O	-	-
 15	713	O	-	-
 16	)	O	-	-
@@ -8589,7 +8589,7 @@
 
 1	max	O	-	-
 2	and	O	-	-
-3	jen	B-PER	-	-
+3	jen	O	-	-
 4	are	O	-	-
 5	looking	O	-	-
 6	for	O	-	-
@@ -8690,7 +8690,7 @@
 9	do	O	-	-
 10	n't	O	-	-
 11	tell	O	-	-
-12	val	B-LOC	-	-
+12	val	O	-	-
 13	.	O	-	-
 
 1	the	O	-	-
@@ -8963,13 +8963,13 @@
 
 1	Kevin	B-PER	-	-
 2	A.	I-PER	-	-
-3	Boone	I-PER	-	-
+3	Boone	O	-	-
 4	Accenture	O	-	-
 5	--	O	-	-
 6	Houston	B-LOC	-	-
-7	Consultant	I-LOC	-	-
+7	Consultant	O	-	-
 8	--	O	-	-
-9	Energy	B-ORG	-	-
+9	Energy	B-LOC	-	-
 10	(	O	-	-
 11	Octel	O	-	-
 12	)	O	-	-
@@ -9008,7 +9008,7 @@
 6	the	O	-	-
 7	game	O	-	-
 8	at	O	-	-
-9	woodrow	B-LOC	-	-
+9	woodrow	O	-	-
 10	s	O	-	-
 11	tomorrow	O	-	-
 12	?	O	-	-
@@ -9186,7 +9186,7 @@
 3	it	O	-	-
 4	directly	O	-	-
 5	to	O	-	-
-6	kent.shoemaker@ae.ge.com	B-LOC	-	-
+6	kent.shoemaker@ae.ge.com	O	-	-
 7	,	O	-	-
 8	copy	O	-	-
 9	to	O	-	-
@@ -9267,7 +9267,7 @@
 8	contact	O	-	-
 9	us	O	-	-
 10	at	O	-	-
-11	noc@paulhastings.com	B-LOC	-	-
+11	noc@paulhastings.com	O	-	-
 12	.	O	-	-
 
 1	==============================================================================	O	-	-
@@ -9442,10 +9442,10 @@
 1	I	O	-	-
 2	spoke	O	-	-
 3	to	O	-	-
-4	Bruce	B-ORG	-	-
-5	Garcey	I-LOC	-	-
+4	Bruce	B-PER	-	-
+5	Garcey	I-PER	-	-
 6	at	O	-	-
-7	NiMo	B-LOC	-	-
+7	NiMo	O	-	-
 8	regarding	O	-	-
 9	their	O	-	-
 10	RFP	O	-	-
@@ -9463,7 +9463,7 @@
 10	bid	O	-	-
 11	higher	O	-	-
 12	than	O	-	-
-13	ENA	B-ORG	-	-
+13	ENA	O	-	-
 14	.	O	-	-
 
 1	However	O	-	-
@@ -9545,7 +9545,7 @@
 19	be	O	-	-
 20	getting	O	-	-
 21	that	O	-	-
-22	RFP	B-PER	-	-
+22	RFP	O	-	-
 23	.	O	-	-
 
 1	Phil	O	-	-
@@ -9727,8 +9727,8 @@
 17	print	O	-	-
 18	clearly	O	-	-
 19	from	O	-	-
-20	Adobe	B-LOC	-	-
-21	Acrobat	I-LOC	-	-
+20	Adobe	O	-	-
+21	Acrobat	O	-	-
 22	Reader	O	-	-
 23	3.0	O	-	-
 24	or	O	-	-
@@ -9745,7 +9745,7 @@
 8	for	O	-	-
 9	FREE	O	-	-
 10	from	O	-	-
-11	www.adobe.com	B-LOC	-	-
+11	www.adobe.com	O	-	-
 12	.	O	-	-
 
 1	(	O	-	-
@@ -9799,25 +9799,25 @@
 49	)	O	-	-
 
 1	-	O	-	-
-2	UnleadedStocks.pdf	B-LOC	-	-
+2	UnleadedStocks.pdf	O	-	-
 
 1	-	O	-	-
-2	CrudeStocks.pdf	B-LOC	-	-
+2	CrudeStocks.pdf	O	-	-
 
 1	-	O	-	-
-2	HeatingOilStocks.pdf	B-LOC	-	-
+2	HeatingOilStocks.pdf	O	-	-
 
 1	-	O	-	-
-2	PADDIIstocksCL.pdf	B-LOC	-	-
+2	PADDIIstocksCL.pdf	O	-	-
 
 1	-	O	-	-
-2	PADDIstocksHO.pdf	B-LOC	-	-
+2	PADDIstocksHO.pdf	O	-	-
 
 1	-	O	-	-
-2	PADDIstocksHU.pdf	B-LOC	-	-
+2	PADDIstocksHU.pdf	O	-	-
 
 1	-	O	-	-
-2	API.pdf	B-LOC	-	-
+2	API.pdf	O	-	-
 
 1	Marlene	O	-	-
 2	Hilliard	O	-	-
@@ -9852,12 +9852,12 @@
 4	for	O	-	-
 5	a	O	-	-
 6	Intrastate	O	-	-
-7	Gas	O	-	-
+7	Gas	I-ORG	-	-
 8	Transportation	O	-	-
 9	Agreement	O	-	-
 10	and	O	-	-
 11	311	O	-	-
-12	Gas	O	-	-
+12	Gas	I-ORG	-	-
 13	Transportation	O	-	-
 14	Agreement	O	-	-
 15	.	O	-	-
@@ -9872,7 +9872,7 @@
 8	,	O	-	-
 9	CCNG	O	-	-
 10	,	O	-	-
-11	Inc.	O	-	-
+11	Inc.	I-ORG	-	-
 12	.	O	-	-
 
 1	On	O	-	-
@@ -9892,7 +9892,7 @@
 15	of	O	-	-
 16	CCNG	O	-	-
 17	,	O	-	-
-18	Inc.	O	-	-
+18	Inc.	I-ORG	-	-
 19	(	O	-	-
 20	713	O	-	-
 21	)	O	-	-
@@ -9933,7 +9933,7 @@
 19	is	O	-	-
 20	free	O	-	-
 21	from	O	-	-
-22	liens	B-LOC	-	-
+22	liens	O	-	-
 23	and	O	-	-
 24	adverse	O	-	-
 25	claims	O	-	-
@@ -10021,8 +10021,8 @@
 2	.	O	-	-
 
 1	Marlene	O	-	-
-2	D.	I-PER	-	-
-3	Hilliard	O	-	-
+2	D.	B-PER	-	-
+3	Hilliard	I-PER	-	-
 
 1	Ginny	O	-	-
 2	,	O	-	-
@@ -10094,7 +10094,7 @@
 2	Townsend	O	-	-
 3	,	O	-	-
 4	George	B-PER	-	-
-5	"	I-PER	-	-
+5	"	O	-	-
 6	<	O	-	-
 7	gtownsend@manorisd.net	O	-	-
 8	>	O	-	-
@@ -10263,9 +10263,9 @@
 3	AM	O	-	-
 
 1	Good	O	-	-
-2	Morning	B-ORG	-	-
-3	Debra	I-ORG	-	-
-4	-	I-ORG	-	-
+2	Morning	B-LOC	-	-
+3	Debra	O	-	-
+4	-	O	-	-
 
 1	I	O	-	-
 2	have	O	-	-
@@ -10377,10 +10377,10 @@
 1	Vangie	O	-	-
 2	McGilloway	O	-	-
 3	Constellation	O	-	-
-4	Power	O	-	-
+4	Power	B-ORG	-	-
 5	Source	O	-	-
-6	,	O	-	-
-7	Inc.	O	-	-
+6	,	I-ORG	-	-
+7	Inc.	I-ORG	-	-
 8	(	O	-	-
 9	"	O	-	-
 10	CPS	O	-	-
@@ -10393,14 +10393,14 @@
 17	500	O	-	-
 18	Baltimore	B-LOC	-	-
 19	,	O	-	-
-20	MD	B-LOC	-	-
-21	21202	I-LOC	-	-
+20	MD	O	-	-
+21	21202	O	-	-
 22	Phone	O	-	-
 23	410-468-3798	O	-	-
 24	Fax	O	-	-
 25	410-468-3499	O	-	-
 26	Email	O	-	-
-27	vangie.mcgilloway@powersrc.com	B-LOC	-	-
+27	vangie.mcgilloway@powersrc.com	O	-	-
 
 1	PS	O	-	-
 2	-	O	-	-
@@ -10497,7 +10497,7 @@
 2	Perlingiere	O	-	-
 
 1	-	O	-	-
-2	ENRON-CPS	B-LOC	-	-
+2	ENRON-CPS	O	-	-
 3	(	O	-	-
 4	GISB	O	-	-
 5	rev1	O	-	-
@@ -10551,8 +10551,8 @@
 6	located	O	-	-
 7	at	O	-	-
 8	Court	O	-	-
-9	House	I-LOC	-	-
-10	Concessionaire	I-LOC	-	-
+9	House	O	-	-
+10	Concessionaire	O	-	-
 11	and	O	-	-
 12	under	O	-	-
 13	her	O	-	-
@@ -10573,7 +10573,7 @@
 6	do	O	-	-
 7	you	O	-	-
 8	intend	O	-	-
-9	10MM	B-LOC	-	-
+9	10MM	O	-	-
 10	for	O	-	-
 11	ENA	O	-	-
 12	as	O	-	-
@@ -10607,9 +10607,9 @@
 11	Spot	O	-	-
 12	w	O	-	-
 13	/	O	-	-
-14	City	O	-	-
-15	of	I-ORG	-	-
-16	Springfield	I-LOC	-	-
+14	City	B-ORG	-	-
+15	of	O	-	-
+16	Springfield	I-ORG	-	-
 17	.	O	-	-
 
 1	Please	O	-	-
@@ -10889,7 +10889,7 @@
 3	AM	O	-	-
 
 1	Rudwell	O	-	-
-2	Johnson	I-PER	-	-
+2	Johnson	B-PER	-	-
 3	/	O	-	-
 4	ENRON@enronXgate	O	-	-
 
@@ -10942,8 +10942,8 @@
 4	copy	O	-	-
 5	of	O	-	-
 6	the	O	-	-
-7	J.M.	O	-	-
-8	Huber	O	-	-
+7	J.M.	B-ORG	-	-
+8	Huber	I-ORG	-	-
 9	Corporation	I-ORG	-	-
 10	Guaranty	O	-	-
 11	to	O	-	-
@@ -11457,7 +11457,7 @@
 26	Regency	I-LOC	-	-
 27	Houston	I-LOC	-	-
 28	,	O	-	-
-29	Imperial	B-LOC	-	-
+29	Imperial	O	-	-
 30	Ballroom	O	-	-
 31	.	O	-	-
 
@@ -11472,7 +11472,7 @@
 9	,	O	-	-
 10	Toronto	B-LOC	-	-
 11	,	O	-	-
-12	Omaha	B-LOC	-	-
+12	Omaha	O	-	-
 13	,	O	-	-
 14	New	B-LOC	-	-
 15	York	I-LOC	-	-
@@ -11576,7 +11576,7 @@
 3	a	O	-	-
 4	tip	O	-	-
 5	from	O	-	-
-6	Carri	B-LOC	-	-
+6	Carri	O	-	-
 7	and	O	-	-
 8	looked	O	-	-
 9	up	O	-	-
@@ -11616,7 +11616,7 @@
 23	"	O	-	-
 
 1	~	O	-	-
-2	CGoehring	B-PER	-	-
+2	CGoehring	O	-	-
 
 1	Just	O	-	-
 2	to	O	-	-
@@ -11974,7 +11974,7 @@
 10	play	O	-	-
 11	D	O	-	-
 12	&	O	-	-
-13	D	B-PER	-	-
+13	D	O	-	-
 14	3.5	O	-	-
 15	and	O	-	-
 16	live	O	-	-
@@ -11984,7 +11984,7 @@
 20	the	O	-	-
 21	Chillicothe	O	-	-
 22	,	O	-	-
-23	OH	B-LOC	-	-
+23	OH	O	-	-
 24	area	O	-	-
 25	.	O	-	-
 
@@ -12064,11 +12064,11 @@
 4	intelligence	O	-	-
 5	inputs	O	-	-
 6	,	O	-	-
-7	Army	B-ORG	-	-
+7	Army	B-LOC	-	-
 8	arrested	O	-	-
 9	Ghulam	O	-	-
 10	Mohiuddin	O	-	-
-11	Lone	B-PER	-	-
+11	Lone	I-LOC	-	-
 12	,	O	-	-
 13	a	O	-	-
 14	LeT	O	-	-
@@ -12084,7 +12084,7 @@
 3	preliminary	O	-	-
 4	interrogation	O	-	-
 5	,	O	-	-
-6	Lone	B-PER	-	-
+6	Lone	O	-	-
 7	'	O	-	-
 8	confessed	O	-	-
 9	'	O	-	-
@@ -12102,7 +12102,7 @@
 
 1	The	O	-	-
 2	India	B-LOC	-	-
-3	Diaries	I-LOC	-	-
+3	Diaries	O	-	-
 
 1	Hello	O	-	-
 2	dear	O	-	-
@@ -12157,10 +12157,10 @@
 17	FMs	O	-	-
 18	Rahu	O	-	-
 19	and	O	-	-
-20	Mercury	B-LOC	-	-
+20	Mercury	O	-	-
 21	,	O	-	-
-22	natal	B-LOC	-	-
-23	Saturn	I-LOC	-	-
+22	natal	O	-	-
+23	Saturn	O	-	-
 24	and	O	-	-
 25	Venus	O	-	-
 26	are	O	-	-
@@ -12207,14 +12207,14 @@
 10	transit	O	-	-
 11	Mercury	O	-	-
 12	by	O	-	-
-13	Rahu	B-LOC	-	-
+13	Rahu	O	-	-
 14	and	O	-	-
-15	Venus	B-LOC	-	-
+15	Venus	O	-	-
 16	the	O	-	-
-17	natal	B-LOC	-	-
-18	Saturn	B-LOC	-	-
+17	natal	O	-	-
+18	Saturn	O	-	-
 19	and	O	-	-
-20	Venus	B-LOC	-	-
+20	Venus	O	-	-
 21	are	O	-	-
 22	also	O	-	-
 23	under	O	-	-
@@ -12227,7 +12227,7 @@
 30	has	O	-	-
 31	resulted	O	-	-
 32	into	O	-	-
-33	floods	B-LOC	-	-
+33	floods	O	-	-
 34	in	O	-	-
 35	many	O	-	-
 36	parts	O	-	-
@@ -12246,15 +12246,15 @@
 49	.	O	-	-
 
 1	V	O	-	-
-2	K	B-PER	-	-
-3	Choudhry	I-PER	-	-
+2	K	O	-	-
+3	Choudhry	O	-	-
 
 1	The	O	-	-
 2	Greater	O	-	-
-3	New	O	-	-
+3	New	B-LOC	-	-
 4	Orleans	I-LOC	-	-
 5	Fair	O	-	-
-6	Housing	B-LOC	-	-
+6	Housing	O	-	-
 7	Action	I-LOC	-	-
 8	Center	I-LOC	-	-
 9	(	O	-	-
@@ -12268,9 +12268,9 @@
 17	against	O	-	-
 18	the	O	-	-
 19	Housing	O	-	-
-20	Authority	I-ORG	-	-
-21	of	O	-	-
-22	New	B-LOC	-	-
+20	Authority	I-LOC	-	-
+21	of	I-LOC	-	-
+22	New	I-LOC	-	-
 23	Orleans	I-LOC	-	-
 24	(	O	-	-
 25	HANO	O	-	-
@@ -12291,13 +12291,13 @@
 10	of	I-LOC	-	-
 11	Housing	I-LOC	-	-
 12	and	O	-	-
-13	Urban	B-LOC	-	-
+13	Urban	O	-	-
 14	Development	O	-	-
 15	,	O	-	-
 16	accuses	O	-	-
 17	HANO	O	-	-
 18	of	O	-	-
-19	violating	B-LOC	-	-
+19	violating	O	-	-
 20	a	O	-	-
 21	2003	O	-	-
 22	enforcement	O	-	-
@@ -12306,28 +12306,28 @@
 25	into	O	-	-
 26	between	O	-	-
 27	former	O	-	-
-28	St.	O	-	-
-29	Thomas	I-LOC	-	-
+28	St.	B-LOC	-	-
+29	Thomas	I-PER	-	-
 30	Housing	I-LOC	-	-
 31	Development	O	-	-
 32	residents	O	-	-
 33	,	O	-	-
 34	the	O	-	-
-35	City	B-ORG	-	-
-36	of	O	-	-
-37	New	B-LOC	-	-
+35	City	B-LOC	-	-
+36	of	I-LOC	-	-
+37	New	I-LOC	-	-
 38	Orleans	I-LOC	-	-
 39	,	O	-	-
-40	HANO	B-LOC	-	-
+40	HANO	O	-	-
 41	,	O	-	-
 42	and	O	-	-
 43	the	O	-	-
 44	U.S.	B-LOC	-	-
-45	Department	B-ORG	-	-
-46	of	I-LOC	-	-
-47	Housing	I-LOC	-	-
+45	Department	I-ORG	-	-
+46	of	O	-	-
+47	Housing	O	-	-
 48	and	O	-	-
-49	Urban	B-LOC	-	-
+49	Urban	O	-	-
 50	Development	O	-	-
 51	during	O	-	-
 52	the	O	-	-
@@ -12336,13 +12336,13 @@
 55	redevelopment	O	-	-
 56	of	O	-	-
 57	St.	B-LOC	-	-
-58	Thomas	I-LOC	-	-
+58	Thomas	I-PER	-	-
 59	,	O	-	-
 60	now	O	-	-
 61	known	O	-	-
 62	as	O	-	-
 63	River	O	-	-
-64	Garden	I-ORG	-	-
+64	Garden	O	-	-
 65	.	O	-	-
 
 1	The	O	-	-
@@ -12356,8 +12356,8 @@
 9	provided	O	-	-
 10	qualified	O	-	-
 11	former	O	-	-
-12	St.	O	-	-
-13	Thomas	I-LOC	-	-
+12	St.	B-PER	-	-
+13	Thomas	I-PER	-	-
 14	residents	O	-	-
 15	a	O	-	-
 16	preference	O	-	-
@@ -12370,7 +12370,7 @@
 23	units	O	-	-
 24	at	O	-	-
 25	River	O	-	-
-26	Garden	I-LOC	-	-
+26	Garden	O	-	-
 27	per	O	-	-
 28	the	O	-	-
 29	2003	O	-	-
@@ -12403,7 +12403,7 @@
 24	units	O	-	-
 25	at	O	-	-
 26	River	O	-	-
-27	Garden	I-LOC	-	-
+27	Garden	O	-	-
 28	because	O	-	-
 29	those	O	-	-
 30	units	O	-	-
@@ -12508,7 +12508,7 @@
 9	silk	O	-	-
 10	chemises	O	-	-
 11	,	O	-	-
-12	panties	B-LOC	-	-
+12	panties	O	-	-
 13	even	O	-	-
 14	stockings	O	-	-
 15	with	O	-	-
@@ -12643,7 +12643,7 @@
 5	men	O	-	-
 6	dressing	O	-	-
 7	in	O	-	-
-8	lingerie	B-LOC	-	-
+8	lingerie	O	-	-
 9	,	O	-	-
 10	when	O	-	-
 11	I	O	-	-
@@ -12730,7 +12730,7 @@
 4	're	O	-	-
 5	all	O	-	-
 6	from	O	-	-
-7	4gamer	B-LOC	-	-
+7	4gamer	O	-	-
 8	.	O	-	-
 
 1	Reply	O	-	-
@@ -12829,21 +12829,21 @@
 1	Reply	O	-	-
 
 1	for	O	-	-
-2	Books	B-LOC	-	-
+2	Books	O	-	-
 3	that	O	-	-
 4	Speak	O	-	-
 5	for	O	-	-
-6	Themselves	B-LOC	-	-
+6	Themselves	O	-	-
 7	....	O	-	-
 
 1	Interested	O	-	-
 2	in	O	-	-
-3	audiobooks	B-LOC	-	-
+3	audiobooks	O	-	-
 4	?	O	-	-
 
 1	Come	O	-	-
 2	visit	O	-	-
-3	irc	B-LOC	-	-
+3	irc	O	-	-
 4	server	O	-	-
 5	:	O	-	-
 6	irc.yankeedot.net	O	-	-
@@ -12982,7 +12982,7 @@
 20	uncover	O	-	-
 21	some	O	-	-
 22	mutual	O	-	-
-23	enthusiasts	B-PER	-	-
+23	enthusiasts	O	-	-
 24	.	O	-	-
 
 1	sincere	O	-	-
@@ -13005,16 +13005,16 @@
 1	----==	O	-	-
 2	Posted	O	-	-
 3	via	O	-	-
-4	Newsfeed.Com	B-LOC	-	-
+4	Newsfeed.Com	O	-	-
 5	-	O	-	-
-6	Unlimited	B-LOC	-	-
+6	Unlimited	O	-	-
 7	-	O	-	-
-8	Uncensored	B-LOC	-	-
+8	Uncensored	O	-	-
 9	-	O	-	-
-10	Secure	B-LOC	-	-
+10	Secure	O	-	-
 11	Usenet	O	-	-
 12	News	O	-	-
-13	==----	B-LOC	-	-
+13	==----	O	-	-
 
 1	The	O	-	-
 2	#	O	-	-
@@ -13032,33 +13032,33 @@
 
 1	---=	O	-	-
 2	19	O	-	-
-3	East	B-LOC	-	-
+3	East	O	-	-
 4	/	O	-	-
-5	West	O	-	-
+5	West	B-LOC	-	-
 6	-	O	-	-
 7	Coast	O	-	-
-8	Specialized	B-LOC	-	-
-9	Servers	I-LOC	-	-
+8	Specialized	O	-	-
+9	Servers	O	-	-
 10	-	O	-	-
 11	Total	O	-	-
 12	Privacy	O	-	-
 13	via	O	-	-
-14	Encryption	B-LOC	-	-
-15	=---	I-LOC	-	-
+14	Encryption	O	-	-
+15	=---	O	-	-
 
 1	----==	O	-	-
 2	Posted	O	-	-
 3	via	O	-	-
-4	Newsfeed.Com	B-LOC	-	-
+4	Newsfeed.Com	O	-	-
 5	-	O	-	-
-6	Unlimited	B-LOC	-	-
+6	Unlimited	O	-	-
 7	-	O	-	-
-8	Uncensored	B-LOC	-	-
+8	Uncensored	O	-	-
 9	-	O	-	-
-10	Secure	B-LOC	-	-
+10	Secure	O	-	-
 11	Usenet	O	-	-
 12	News	O	-	-
-13	==----	B-LOC	-	-
+13	==----	O	-	-
 
 1	The	O	-	-
 2	#	O	-	-
@@ -13076,36 +13076,36 @@
 
 1	---=	O	-	-
 2	19	O	-	-
-3	East	B-LOC	-	-
+3	East	O	-	-
 4	/	O	-	-
-5	West	O	-	-
+5	West	B-LOC	-	-
 6	-	O	-	-
 7	Coast	O	-	-
-8	Specialized	B-LOC	-	-
-9	Servers	I-LOC	-	-
+8	Specialized	O	-	-
+9	Servers	O	-	-
 10	-	O	-	-
 11	Total	O	-	-
 12	Privacy	O	-	-
 13	via	O	-	-
-14	Encryption	B-LOC	-	-
-15	=---	I-LOC	-	-
+14	Encryption	O	-	-
+15	=---	O	-	-
 
 1	for	O	-	-
-2	Books	B-LOC	-	-
+2	Books	O	-	-
 3	that	O	-	-
 4	Speak	O	-	-
 5	for	O	-	-
-6	Themselves	B-LOC	-	-
+6	Themselves	O	-	-
 7	....	O	-	-
 
 1	Interested	O	-	-
 2	in	O	-	-
-3	audiobooks	B-LOC	-	-
+3	audiobooks	O	-	-
 4	?	O	-	-
 
 1	Come	O	-	-
 2	visit	O	-	-
-3	irc	B-LOC	-	-
+3	irc	O	-	-
 4	server	O	-	-
 5	:	O	-	-
 6	irc.yankeedot.net	O	-	-
@@ -13222,17 +13222,17 @@
 3	alt.animals.cat	O	-	-
 
 1	-	O	-	-
-2	U	B-ORG	-	-
+2	U	B-PER	-	-
 3	P	O	-	-
 4	D	O	-	-
 5	A	O	-	-
-6	T	O	-	-
-7	E	I-PER	-	-
-8	D	I-PER	-	-
-9	-	O	-	-
+6	T	B-LOC	-	-
+7	E	I-LOC	-	-
+8	D	O	-	-
+9	-	I-PER	-	-
 
 1	-	O	-	-
-2	Page	B-PER	-	-
+2	Page	O	-	-
 3	71	O	-	-
 4	,	O	-	-
 5	72	O	-	-
@@ -13249,7 +13249,7 @@
 16	are	O	-	-
 17	added	O	-	-
 18	to	O	-	-
-19	The	B-ORG	-	-
+19	The	O	-	-
 20	Cat	O	-	-
 21	Album	O	-	-
 22	today	O	-	-
@@ -13277,7 +13277,7 @@
 6	"	O	-	-
 7	The	O	-	-
 8	Cat	O	-	-
-9	Album	B-LOC	-	-
+9	Album	O	-	-
 10	"	O	-	-
 11	I	O	-	-
 12	can	O	-	-
@@ -13390,7 +13390,7 @@
 2	:	O	-	-
 3	"	O	-	-
 4	Sean	O	-	-
-5	Figaro	I-PER	-	-
+5	Figaro	O	-	-
 6	"	O	-	-
 7	<	O	-	-
 8	sfig...@houston.rr.com	O	-	-
@@ -13416,7 +13416,7 @@
 14	cats	O	-	-
 15	because	O	-	-
 16	of	O	-	-
-17	allergies	B-LOC	-	-
+17	allergies	O	-	-
 18	,	O	-	-
 19	he	O	-	-
 20	is	O	-	-
@@ -13454,7 +13454,7 @@
 4	in	O	-	-
 5	Houston	B-LOC	-	-
 6	or	O	-	-
-7	surronding	B-LOC	-	-
+7	surronding	O	-	-
 8	area	O	-	-
 9	,	O	-	-
 10	needs	O	-	-
@@ -13496,7 +13496,7 @@
 4	cancelled	O	-	-
 5	from	O	-	-
 6	within	O	-	-
-7	Mozilla	B-LOC	-	-
+7	Mozilla	O	-	-
 8	.	O	-	-
 
 1	Email	O	-	-
@@ -13611,7 +13611,7 @@
 15	to	O	-	-
 16	the	O	-	-
 17	World	O	-	-
-18	Conservation	I-LOC	-	-
+18	Conservation	O	-	-
 19	Union	O	-	-
 20	(	O	-	-
 21	IUCN	O	-	-
@@ -13642,12 +13642,12 @@
 46	before	O	-	-
 47	.	O	-	-
 
-1	s	I-ORG	-	-
+1	s	O	-	-
 
 1	Animal	O	-	-
 2	News	O	-	-
-3	Center	B-ORG	-	-
-4	Webmaster	I-ORG	-	-
+3	Center	O	-	-
+4	Webmaster	O	-	-
 
 1	$	O	-	-
 2	5250	O	-	-
@@ -13702,7 +13702,7 @@
 1	Email	O	-	-
 2	:	O	-	-
 3	Adelia	O	-	-
-4	Smith	I-PER	-	-
+4	Smith	B-PER	-	-
 5	<	O	-	-
 6	adorabledelia6...@gmail.com	O	-	-
 7	>	O	-	-
@@ -13769,7 +13769,7 @@
 15	some	O	-	-
 16	of	O	-	-
 17	the	O	-	-
-18	airlines	O	-	-
+18	airlines	B-ORG	-	-
 19	for	O	-	-
 20	a	O	-	-
 21	certain	O	-	-
@@ -13784,7 +13784,7 @@
 30	get	O	-	-
 31	from	O	-	-
 32	the	O	-	-
-33	airlines	O	-	-
+33	airlines	B-ORG	-	-
 34	.	O	-	-
 
 1	Corporate	O	-	-
@@ -13815,7 +13815,7 @@
 3	like	O	-	-
 4	Malaysia	B-LOC	-	-
 5	and	O	-	-
-6	Singapore	B-LOC	-	-
+6	Singapore	O	-	-
 7	promote	O	-	-
 8	trading	O	-	-
 9	for	O	-	-
@@ -13853,7 +13853,7 @@
 5	with	O	-	-
 6	the	O	-	-
 7	other	O	-	-
-8	airlines	O	-	-
+8	airlines	B-ORG	-	-
 9	during	O	-	-
 10	this	O	-	-
 11	period	O	-	-
@@ -13931,7 +13931,7 @@
 26	20	O	-	-
 27	years	O	-	-
 28	at	O	-	-
-29	Rodale	B-LOC	-	-
+29	Rodale	O	-	-
 30	Press	I-ORG	-	-
 31	,	O	-	-
 32	as	O	-	-
@@ -13945,10 +13945,10 @@
 40	-	O	-	-
 41	chief	O	-	-
 42	of	O	-	-
-43	Prevention	B-LOC	-	-
+43	Prevention	O	-	-
 44	and	O	-	-
-45	Rodale	B-LOC	-	-
-46	Books	I-LOC	-	-
+45	Rodale	O	-	-
+46	Books	O	-	-
 47	.	O	-	-
 
 1	Currently	O	-	-
@@ -13970,14 +13970,14 @@
 17	Harry	B-PER	-	-
 18	Preuss	I-PER	-	-
 19	,	O	-	-
-20	MD	B-LOC	-	-
+20	MD	O	-	-
 21	,	O	-	-
 22	a	O	-	-
 23	Professor	O	-	-
 24	of	O	-	-
 25	Medicine	B-ORG	-	-
 26	at	O	-	-
-27	Georgetown	B-LOC	-	-
+27	Georgetown	O	-	-
 28	University	I-LOC	-	-
 29	;	O	-	-
 30	it	O	-	-
@@ -14008,7 +14008,7 @@
 10	initial	O	-	-
 11	)	O	-	-
 12	from	O	-	-
-13	dieters	B-LOC	-	-
+13	dieters	O	-	-
 14	who	O	-	-
 15	successfully	O	-	-
 16	used	O	-	-
@@ -14043,19 +14043,19 @@
 45	,	O	-	-
 46	starch	O	-	-
 47	-	O	-	-
-48	blockers	B-LOC	-	-
+48	blockers	O	-	-
 49	,	O	-	-
-50	chitosan	B-LOC	-	-
+50	chitosan	O	-	-
 51	,	O	-	-
 52	5	O	-	-
 53	-	O	-	-
 54	HTP	O	-	-
 55	,	O	-	-
-56	hoodia	B-LOC	-	-
+56	hoodia	O	-	-
 57	and	O	-	-
 58	caralluma	O	-	-
 59	,	O	-	-
-60	HMB	B-LOC	-	-
+60	HMB	O	-	-
 61	,	O	-	-
 62	and	O	-	-
 63	BCAA	O	-	-
@@ -14079,7 +14079,7 @@
 16	write	O	-	-
 17	me	O	-	-
 18	at	O	-	-
-19	gottlie...@yahoo.com	B-LOC	-	-
+19	gottlie...@yahoo.com	O	-	-
 20	and	O	-	-
 21	let	O	-	-
 22	me	O	-	-
@@ -14124,7 +14124,7 @@
 14	the	O	-	-
 15	Coca	O	-	-
 16	-	O	-	-
-17	Cola	B-LOC	-	-
+17	Cola	O	-	-
 18	corporation	O	-	-
 19	built	O	-	-
 20	a	O	-	-
@@ -14147,7 +14147,7 @@
 1	In	O	-	-
 2	exchange	O	-	-
 3	for	O	-	-
-4	sucking	B-LOC	-	-
+4	sucking	O	-	-
 5	vast	O	-	-
 6	amounts	O	-	-
 7	of	O	-	-
@@ -14159,7 +14159,7 @@
 13	land	O	-	-
 14	,	O	-	-
 15	the	O	-	-
-16	mighty	B-ORG	-	-
+16	mighty	O	-	-
 17	corporation	O	-	-
 18	promised	O	-	-
 19	to	O	-	-
@@ -14199,8 +14199,8 @@
 
 1	Coca	O	-	-
 2	-	O	-	-
-3	Cola	B-LOC	-	-
-4	calmed	I-LOC	-	-
+3	Cola	O	-	-
+4	calmed	O	-	-
 5	the	O	-	-
 6	concerns	O	-	-
 7	of	O	-	-
@@ -14262,7 +14262,7 @@
 26	plant	O	-	-
 27	's	O	-	-
 28	waste	O	-	-
-29	sludge	B-LOC	-	-
+29	sludge	O	-	-
 30	and	O	-	-
 31	is	O	-	-
 32	laden	O	-	-
@@ -14386,7 +14386,7 @@
 13	helm	O	-	-
 14	of	O	-	-
 15	the	O	-	-
-16	18,000	B-ORG	-	-
+16	18,000	O	-	-
 17	-	O	-	-
 18	person	O	-	-
 19	agency	O	-	-
@@ -14438,7 +14438,7 @@
 7	Nook	O	-	-
 8	at	O	-	-
 9	3/9/2005	B-LOC	-	-
-10	11:16:00	I-LOC	-	-
+10	11:16:00	O	-	-
 11	PM	O	-	-
 
 1	[	O	-	-
@@ -14539,7 +14539,7 @@
 35	)	O	-	-
 36	rule	O	-	-
 37	the	O	-	-
-38	West	O	-	-
+38	West	B-LOC	-	-
 39	Bank	I-LOC	-	-
 40	.	O	-	-
 
@@ -14577,11 +14577,11 @@
 26	speech	O	-	-
 27	in	O	-	-
 28	the	O	-	-
-29	West	O	-	-
+29	West	B-LOC	-	-
 30	Bank	I-LOC	-	-
 31	town	O	-	-
 32	of	O	-	-
-33	Ramallah	B-LOC	-	-
+33	Ramallah	O	-	-
 34	,	O	-	-
 35	Saturday	O	-	-
 36	Dec.	O	-	-
@@ -14594,18 +14594,18 @@
 2	himself	O	-	-
 3	in	O	-	-
 4	Yasser	B-LOC	-	-
-5	Arafat	B-PER	-	-
+5	Arafat	I-LOC	-	-
 6	's	O	-	-
 7	legacy	O	-	-
 8	,	O	-	-
-9	Abbas	B-LOC	-	-
+9	Abbas	O	-	-
 10	pledged	O	-	-
 11	to	O	-	-
-12	fulfill	B-LOC	-	-
+12	fulfill	O	-	-
 13	Palestinian	O	-	-
 14	dreams	O	-	-
 15	of	O	-	-
-16	statehood	B-LOC	-	-
+16	statehood	O	-	-
 17	.	O	-	-
 
 1	It	O	-	-
@@ -14659,7 +14659,7 @@
 9	the	O	-	-
 10	ruling	O	-	-
 11	Fatah	O	-	-
-12	party	O	-	-
+12	party	I-ORG	-	-
 13	that	O	-	-
 14	he	O	-	-
 15	was	O	-	-
@@ -14679,9 +14679,9 @@
 29	's	O	-	-
 30	partially	O	-	-
 31	completed	O	-	-
-32	West	O	-	-
+32	West	B-LOC	-	-
 33	Bank	I-LOC	-	-
-34	barrier	I-ORG	-	-
+34	barrier	O	-	-
 35	.	O	-	-
 
 1	Abbas	O	-	-
@@ -14715,7 +14715,7 @@
 12	Israeli	O	-	-
 13	city	O	-	-
 14	of	O	-	-
-15	Safed	B-LOC	-	-
+15	Safed	O	-	-
 16	,	O	-	-
 17	called	O	-	-
 18	the	O	-	-
@@ -14770,7 +14770,7 @@
 12	path	O	-	-
 13	of	O	-	-
 14	Yasser	O	-	-
-15	Arafat	B-PER	-	-
+15	Arafat	O	-	-
 16	,	O	-	-
 17	then	O	-	-
 18	there	O	-	-
@@ -14804,7 +14804,7 @@
 7	Nook	O	-	-
 8	at	O	-	-
 9	12/26/2004	B-LOC	-	-
-10	10:46:08	I-LOC	-	-
+10	10:46:08	O	-	-
 11	PM	O	-	-
 
 1	[	O	-	-
@@ -14821,11 +14821,11 @@
 8	)	O	-	-
 
 1	(	O	-	-
-2	BBC	B-ORG	-	-
+2	BBC	B-LOC	-	-
 3	)	O	-	-
 
 1	The	O	-	-
-2	Palestinian	B-ORG	-	-
+2	Palestinian	O	-	-
 3	militant	O	-	-
 4	organisation	O	-	-
 5	Hamas	B-ORG	-	-
@@ -14846,7 +14846,7 @@
 20	a	O	-	-
 21	weekend	O	-	-
 22	of	O	-	-
-23	escalating	B-LOC	-	-
+23	escalating	O	-	-
 24	violence	O	-	-
 25	.	O	-	-
 
@@ -14877,7 +14877,7 @@
 5	rockets	O	-	-
 6	,	O	-	-
 7	Israel	B-LOC	-	-
-8	resumed	I-LOC	-	-
+8	resumed	O	-	-
 9	its	O	-	-
 10	policy	O	-	-
 11	of	O	-	-
@@ -14930,8 +14930,8 @@
 19	beating	O	-	-
 20	the	O	-	-
 21	Israeli	O	-	-
-22	Defense	B-ORG	-	-
-23	Forces	I-ORG	-	-
+22	Defense	O	-	-
+23	Forces	O	-	-
 24	have	O	-	-
 25	unleashed	O	-	-
 26	upon	O	-	-
@@ -14958,8 +14958,8 @@
 16	leader	O	-	-
 17	,	O	-	-
 18	Muhammed	O	-	-
-19	Sheikh	B-PER	-	-
-20	Khalil	O	-	-
+19	Sheikh	I-PER	-	-
+20	Khalil	I-PER	-	-
 21	.	O	-	-
 
 1	Hamas	B-ORG	-	-
@@ -14989,7 +14989,7 @@
 25	soil	O	-	-
 26	.	O	-	-
 
-1	Egypt	O	-	-
+1	Egypt	B-LOC	-	-
 2	had	O	-	-
 3	a	O	-	-
 4	role	O	-	-
@@ -15012,8 +15012,8 @@
 21	be	O	-	-
 22	said	O	-	-
 23	of	O	-	-
-24	Islamic	O	-	-
-25	Jihad	O	-	-
+24	Islamic	B-ORG	-	-
+25	Jihad	I-ORG	-	-
 26	.	O	-	-
 
 1	(	O	-	-
@@ -15052,7 +15052,7 @@
 29	a	O	-	-
 30	senior	O	-	-
 31	Islamic	O	-	-
-32	Jihad	O	-	-
+32	Jihad	I-ORG	-	-
 33	official	O	-	-
 34	.	O	-	-
 
@@ -15139,8 +15139,8 @@
 10	.	O	-	-
 11	"	O	-	-
 
-1	Islamic	B-PER	-	-
-2	Jihad	O	-	-
+1	Islamic	B-ORG	-	-
+2	Jihad	I-ORG	-	-
 3	has	O	-	-
 4	refused	O	-	-
 5	to	O	-	-
@@ -15226,7 +15226,7 @@
 7	Nook	O	-	-
 8	at	O	-	-
 9	9/26/2005	B-LOC	-	-
-10	08:14:00	I-LOC	-	-
+10	08:14:00	O	-	-
 11	PM	O	-	-
 
 1	[	O	-	-
@@ -15235,7 +15235,7 @@
 
 1	(	O	-	-
 2	New	B-LOC	-	-
-3	Scientist	I-LOC	-	-
+3	Scientist	O	-	-
 4	Space	I-LOC	-	-
 5	)	O	-	-
 
@@ -15253,9 +15253,9 @@
 12	astronauts	O	-	-
 13	to	O	-	-
 14	the	O	-	-
-15	International	B-ORG	-	-
-16	Space	I-ORG	-	-
-17	Station	I-ORG	-	-
+15	International	B-LOC	-	-
+16	Space	I-LOC	-	-
+17	Station	I-LOC	-	-
 18	,	O	-	-
 19	it	O	-	-
 20	announced	O	-	-
@@ -15288,17 +15288,17 @@
 19	back	O	-	-
 20	to	O	-	-
 21	the	O	-	-
-22	Moon	O	-	-
+22	Moon	B-LOC	-	-
 23	,	O	-	-
 24	"	O	-	-
 25	says	O	-	-
 26	Brett	O	-	-
-27	Alexander	B-PER	-	-
+27	Alexander	I-PER	-	-
 28	,	O	-	-
 29	vice-president	O	-	-
 30	of	O	-	-
 31	Transformational	O	-	-
-32	Space	I-LOC	-	-
+32	Space	O	-	-
 33	,	O	-	-
 34	one	O	-	-
 35	of	O	-	-
@@ -15392,7 +15392,7 @@
 
 1	(	O	-	-
 2	New	B-LOC	-	-
-3	Scientist	I-LOC	-	-
+3	Scientist	O	-	-
 4	Space	I-LOC	-	-
 5	)	O	-	-
 
@@ -15563,7 +15563,7 @@
 7	Nook	O	-	-
 8	at	O	-	-
 9	11/16/2005	B-LOC	-	-
-10	08:36:00	I-LOC	-	-
+10	08:36:00	O	-	-
 11	AM	O	-	-
 
 1	Several	O	-	-
@@ -15588,9 +15588,9 @@
 20	,	O	-	-
 21	discriminated	O	-	-
 22	between	O	-	-
-23	ADHD	B-LOC	-	-
+23	ADHD	O	-	-
 24	,	O	-	-
-25	LD	B-LOC	-	-
+25	LD	O	-	-
 26	,	O	-	-
 27	and	O	-	-
 28	control	O	-	-
@@ -15748,7 +15748,7 @@
 19	intensive	O	-	-
 20	test	O	-	-
 21	like	O	-	-
-22	TOVA	B-LOC	-	-
+22	TOVA	O	-	-
 23	.	O	-	-
 
 1	Perhaps	O	-	-
@@ -15804,7 +15804,7 @@
 27	Mexico	I-LOC	-	-
 28	.	O	-	-
 
-1	New	O	-	-
+1	New	B-LOC	-	-
 2	York	I-LOC	-	-
 3	's	O	-	-
 4	main	O	-	-
@@ -15837,7 +15837,7 @@
 6	of	O	-	-
 7	Brent	B-PER	-	-
 8	North	I-PER	-	-
-9	Sea	I-LOC	-	-
+9	Sea	O	-	-
 10	crude	O	-	-
 11	for	O	-	-
 12	November	O	-	-
@@ -15846,7 +15846,7 @@
 15	53	O	-	-
 16	cents	O	-	-
 17	to	O	-	-
-18	64.73	B-LOC	-	-
+18	64.73	O	-	-
 19	dollars	O	-	-
 20	.	O	-	-
 
@@ -15854,7 +15854,7 @@
 2	brushing	O	-	-
 3	the	O	-	-
 4	Florida	B-LOC	-	-
-5	Keys	I-LOC	-	-
+5	Keys	O	-	-
 6	islands	O	-	-
 7	on	O	-	-
 8	Tuesday	O	-	-
@@ -15880,11 +15880,11 @@
 
 1	The	O	-	-
 2	US	B-LOC	-	-
-3	National	B-ORG	-	-
+3	National	I-ORG	-	-
 4	Hurricane	I-ORG	-	-
-5	Center	B-ORG	-	-
+5	Center	I-LOC	-	-
 6	said	O	-	-
-7	Rita	B-LOC	-	-
+7	Rita	O	-	-
 8	was	O	-	-
 9	"	O	-	-
 10	extremely	O	-	-
@@ -15904,7 +15904,7 @@
 24	the	O	-	-
 25	Saffir	O	-	-
 26	-	O	-	-
-27	Simpson	B-LOC	-	-
+27	Simpson	O	-	-
 28	scale	O	-	-
 29	.	O	-	-
 
@@ -15917,7 +15917,7 @@
 7	the	O	-	-
 8	Gulf	B-LOC	-	-
 9	of	I-LOC	-	-
-10	Mexico	B-LOC	-	-
+10	Mexico	I-LOC	-	-
 11	where	O	-	-
 12	about	O	-	-
 13	one	O	-	-
@@ -15949,9 +15949,9 @@
 16	.	O	-	-
 
 1	In	O	-	-
-2	Texas	B-ORG	-	-
+2	Texas	B-LOC	-	-
 3	,	O	-	-
-4	BP	B-ORG	-	-
+4	BP	O	-	-
 5	shut	O	-	-
 6	its	O	-	-
 7	460,000	O	-	-
@@ -15978,7 +15978,7 @@
 8	its	O	-	-
 9	243,000	O	-	-
 10	bpd	O	-	-
-11	Texas	B-LOC	-	-
+11	Texas	I-ORG	-	-
 12	City	I-LOC	-	-
 13	refinery	O	-	-
 14	and	O	-	-
@@ -15997,7 +15997,7 @@
 6	from	O	-	-
 7	two	O	-	-
 8	giant	O	-	-
-9	Texas	B-ORG	-	-
+9	Texas	B-LOC	-	-
 10	plants	O	-	-
 11	.	O	-	-
 
@@ -16044,10 +16044,10 @@
 
 1	Email	O	-	-
 2	:	O	-	-
-3	BBC	O	-	-
+3	BBC	B-PER	-	-
 4	Breaking	O	-	-
 5	News	O	-	-
-6	Alert	B-LOC	-	-
+6	Alert	O	-	-
 7	<	O	-	-
 8	dailyem...@ebs.bbc.co.uk	O	-	-
 9	>	O	-	-
@@ -16097,10 +16097,10 @@
 2	have	O	-	-
 3	received	O	-	-
 4	this	O	-	-
-5	BBC	B-ORG	-	-
-6	Breaking	I-LOC	-	-
+5	BBC	B-PER	-	-
+6	Breaking	O	-	-
 7	News	O	-	-
-8	Alert	B-LOC	-	-
+8	Alert	O	-	-
 9	because	O	-	-
 10	you	O	-	-
 11	subscribed	O	-	-
@@ -16419,7 +16419,7 @@
 1	The	O	-	-
 2	furnishing	O	-	-
 3	and	O	-	-
-4	finishes	B-LOC	-	-
+4	finishes	O	-	-
 5	are	O	-	-
 6	great	O	-	-
 7	.	O	-	-
@@ -16482,7 +16482,7 @@
 14	Scharffen	O	-	-
 15	Berger	O	-	-
 16	,	O	-	-
-17	TCHO	B-LOC	-	-
+17	TCHO	O	-	-
 18	,	O	-	-
 19	and	O	-	-
 20	smaller	O	-	-
@@ -16548,7 +16548,7 @@
 
 1	Britt	O	-	-
 2	's	O	-	-
-3	Pizza	O	-	-
+3	Pizza	B-ORG	-	-
 4	is	O	-	-
 5	long	O	-	-
 6	gone	O	-	-
@@ -16561,7 +16561,7 @@
 5	northwest	O	-	-
 6	corner	O	-	-
 7	of	O	-	-
-8	S.	B-LOC	-	-
+8	S.	O	-	-
 9	10th	O	-	-
 10	&	O	-	-
 11	Federal	O	-	-
@@ -16571,7 +16571,7 @@
 15	now	O	-	-
 16	home	O	-	-
 17	to	O	-	-
-18	Slice	B-LOC	-	-
+18	Slice	O	-	-
 19	Pizza	O	-	-
 20	.	O	-	-
 
@@ -16589,7 +16589,7 @@
 3	lawyer	O	-	-
 
 1	Mr.	O	-	-
-2	Villega	B-PER	-	-
+2	Villega	O	-	-
 3	is	O	-	-
 4	an	O	-	-
 5	exceptional	O	-	-
@@ -16627,11 +16627,11 @@
 10	right	O	-	-
 11	,	O	-	-
 12	contact	O	-	-
-13	Law	O	-	-
-14	Offices	I-ORG	-	-
-15	of	O	-	-
-16	Armando	B-LOC	-	-
-17	Villega	I-LOC	-	-
+13	Law	B-LOC	-	-
+14	Offices	I-LOC	-	-
+15	of	I-LOC	-	-
+16	Armando	O	-	-
+17	Villega	O	-	-
 
 1	Simple	O	-	-
 2	,	O	-	-
@@ -16659,7 +16659,7 @@
 2	will	O	-	-
 3	be	O	-	-
 4	calling	O	-	-
-5	tropics	B-LOC	-	-
+5	tropics	O	-	-
 6	for	O	-	-
 7	my	O	-	-
 8	companie	O	-	-
@@ -16673,7 +16673,7 @@
 3	last	O	-	-
 4	decade	O	-	-
 5	this	O	-	-
-6	University	O	-	-
+6	University	B-ORG	-	-
 7	is	O	-	-
 8	gaining	O	-	-
 9	more	O	-	-
@@ -16729,7 +16729,7 @@
 6	again	O	-	-
 7	.	O	-	-
 
-1	Lovely	B-ORG	-	-
+1	Lovely	O	-	-
 2	Cottage	O	-	-
 
 1	This	O	-	-
@@ -16950,7 +16950,7 @@
 1	We	O	-	-
 2	go	O	-	-
 3	to	O	-	-
-4	Japaneiro	B-LOC	-	-
+4	Japaneiro	O	-	-
 5	's	O	-	-
 6	all	O	-	-
 7	the	O	-	-
@@ -17057,7 +17057,7 @@
 
 1	Chuck	B-PER	-	-
 2	and	O	-	-
-3	Gretchen	B-LOC	-	-
+3	Gretchen	O	-	-
 4	were	O	-	-
 5	very	O	-	-
 6	positive	O	-	-
@@ -17165,7 +17165,7 @@
 6	!	O	-	-
 
 1	Doctor	O	-	-
-2	Hank	B-PER	-	-
+2	Hank	O	-	-
 3	is	O	-	-
 4	Amazing	O	-	-
 
@@ -17295,7 +17295,7 @@
 10	,	O	-	-
 11	Asian	O	-	-
 12	,	O	-	-
-13	ect.	B-LOC	-	-
+13	ect.	O	-	-
 14	)	O	-	-
 15	equals	O	-	-
 16	kids	O	-	-
@@ -17356,7 +17356,7 @@
 6	visiting	O	-	-
 7	Winterowd	B-LOC	-	-
 8	Fine	I-LOC	-	-
-9	Art	I-LOC	-	-
+9	Art	O	-	-
 10	!	O	-	-
 
 1	Beautiful	O	-	-
@@ -17501,7 +17501,7 @@
 6	,	O	-	-
 7	go	O	-	-
 8	to	O	-	-
-9	famoso	B-LOC	-	-
+9	famoso	O	-	-
 10	.	O	-	-
 
 1	seriously	O	-	-
@@ -17590,7 +17590,7 @@
 3	this	O	-	-
 4	little	O	-	-
 5	strip	O	-	-
-6	mall	B-PER	-	-
+6	mall	O	-	-
 7	restaurant	O	-	-
 8	has	O	-	-
 9	the	O	-	-
@@ -17654,7 +17654,7 @@
 6	for	O	-	-
 7	my	O	-	-
 8	Toyota	B-ORG	-	-
-9	Venza	I-ORG	-	-
+9	Venza	O	-	-
 10	that	O	-	-
 11	looks	O	-	-
 12	amazing	O	-	-
@@ -17679,10 +17679,10 @@
 3	not	O	-	-
 4	where	O	-	-
 5	the	O	-	-
-6	Blue	B-ORG	-	-
+6	Blue	O	-	-
 7	Water	O	-	-
 8	Bridge	O	-	-
-9	Duty	I-LOC	-	-
+9	Duty	O	-	-
 10	Free	O	-	-
 11	is	O	-	-
 12	located	O	-	-
@@ -17695,7 +17695,7 @@
 5	,	O	-	-
 6	near	O	-	-
 7	the	O	-	-
-8	Blue	B-ORG	-	-
+8	Blue	O	-	-
 9	Water	O	-	-
 10	Bridges	O	-	-
 11	,	O	-	-
@@ -17733,9 +17733,9 @@
 3	Hobby	O	-	-
 4	Lobby	O	-	-
 5	,	O	-	-
-6	Just	B-ORG	-	-
+6	Just	O	-	-
 7	for	O	-	-
-8	Fun	B-LOC	-	-
+8	Fun	O	-	-
 9	Fabrics	O	-	-
 10	,	O	-	-
 11	Walmart	B-LOC	-	-
@@ -18000,7 +18000,7 @@
 4	.	O	-	-
 
 1	Dr.	O	-	-
-2	Dorn	B-PER	-	-
+2	Dorn	O	-	-
 3	is	O	-	-
 4	his	O	-	-
 5	backup	O	-	-
@@ -18009,7 +18009,7 @@
 1	Aweesome	O	-	-
 
 1	Holy	O	-	-
-2	cow	B-LOC	-	-
+2	cow	O	-	-
 3	was	O	-	-
 4	that	O	-	-
 5	a	O	-	-
@@ -18161,7 +18161,7 @@
 4	forwarded	O	-	-
 5	to	O	-	-
 6	Malcolm	O	-	-
-7	Smith	O	-	-
+7	Smith	I-PER	-	-
 8	Motorsports	O	-	-
 9	down	O	-	-
 10	the	O	-	-
@@ -18242,8 +18242,8 @@
 8	++++++++++++++++++	O	-	-
 
 1	Great	O	-	-
-2	Neighborhood	B-ORG	-	-
-3	Hangout	I-LOC	-	-
+2	Neighborhood	B-PER	-	-
+3	Hangout	O	-	-
 
 1	Great	O	-	-
 2	place	O	-	-
@@ -18835,7 +18835,7 @@
 8	i	O	-	-
 9	get	O	-	-
 10	at	O	-	-
-11	Luxe	B-LOC	-	-
+11	Luxe	O	-	-
 12	.	O	-	-
 
 1	The	O	-	-
@@ -18912,7 +18912,7 @@
 2	Service	O	-	-
 
 1	Dr	O	-	-
-2	Mcdonald	O	-	-
+2	Mcdonald	B-ORG	-	-
 3	is	O	-	-
 4	wonderful	O	-	-
 5	.	O	-	-
@@ -18950,7 +18950,7 @@
 
 1	Good	O	-	-
 2	Job	O	-	-
-3	DR	B-PER	-	-
+3	DR	O	-	-
 4	.	O	-	-
 
 1	Brain	B-PER	-	-
@@ -18985,7 +18985,7 @@
 7	.	O	-	-
 
 1	The	O	-	-
-2	World	B-LOC	-	-
+2	World	O	-	-
 3	's	O	-	-
 4	Fair	O	-	-
 5	museum	O	-	-
@@ -19095,7 +19095,7 @@
 5	good	O	-	-
 6	.	O	-	-
 
-1	Fish	I-ORG	-	-
+1	Fish	O	-	-
 2	tacos	O	-	-
 3	are	O	-	-
 4	my	O	-	-
@@ -19144,7 +19144,7 @@
 27	AWESOME	O	-	-
 28	MASSAGE	O	-	-
 29	,	O	-	-
-30	CALL	B-LOC	-	-
+30	CALL	O	-	-
 31	TODAY	O	-	-
 32	AND	O	-	-
 33	SCHEDULE	O	-	-
@@ -19180,8 +19180,8 @@
 7	I	O	-	-
 8	recommend	O	-	-
 9	in	O	-	-
-10	Woodland	B-LOC	-	-
-11	Hills	O	-	-
+10	Woodland	O	-	-
+11	Hills	I-LOC	-	-
 12	.	O	-	-
 
 1	Yum	O	-	-
@@ -19428,7 +19428,7 @@
 
 1	Thanks	O	-	-
 2	again	O	-	-
-3	Nina	O	-	-
+3	Nina	B-PER	-	-
 4	.	O	-	-
 
 1	PS.	O	-	-
@@ -19580,7 +19580,7 @@
 2	chicken	O	-	-
 3	cordon	O	-	-
 4	-	O	-	-
-5	blu	B-LOC	-	-
+5	blu	O	-	-
 6	was	O	-	-
 7	tasty	O	-	-
 8	and	O	-	-
@@ -19633,7 +19633,7 @@
 
 1	Best	O	-	-
 2	in	O	-	-
-3	Memphis	O	-	-
+3	Memphis	B-LOC	-	-
 
 1	This	O	-	-
 2	shop	O	-	-
@@ -19775,7 +19775,7 @@
 10	.	O	-	-
 
 1	Food	O	-	-
-2	drastically	B-LOC	-	-
+2	drastically	O	-	-
 3	let's	O	-	-
 4	the	O	-	-
 5	place	O	-	-
@@ -19792,9 +19792,9 @@
 3	favorite	O	-	-
 4	store	O	-	-
 5	in	O	-	-
-6	Lawrence	B-LOC	-	-
+6	Lawrence	O	-	-
 7	,	O	-	-
-8	KS	B-LOC	-	-
+8	KS	O	-	-
 
 1	Quick	O	-	-
 2	and	O	-	-
@@ -20026,7 +20026,7 @@
 1	Cheapest	O	-	-
 2	drinks	O	-	-
 3	in	O	-	-
-4	Keene	B-LOC	-	-
+4	Keene	O	-	-
 5	!	O	-	-
 
 1	Remember	O	-	-
@@ -20037,7 +20037,7 @@
 6	Sense	O	-	-
 7	"	O	-	-
 8	at	O	-	-
-9	Cinema	B-LOC	-	-
+9	Cinema	O	-	-
 10	21	O	-	-
 11	multiple	O	-	-
 12	times	O	-	-
@@ -20144,7 +20144,7 @@
 14	)	O	-	-
 15	.	O	-	-
 
-1	Nice	O	-	-
+1	Nice	B-LOC	-	-
 2	teachers	O	-	-
 3	good	O	-	-
 4	school	O	-	-
@@ -20181,13 +20181,13 @@
 
 1	Thanks	O	-	-
 2	For	O	-	-
-3	A	B-ORG	-	-
+3	A	O	-	-
 4	Great	O	-	-
 5	Job	O	-	-
 
 1	Thanks	O	-	-
 2	For	O	-	-
-3	The	B-ORG	-	-
+3	The	O	-	-
 4	Prompt	O	-	-
 5	Service	O	-	-
 6	And	O	-	-
@@ -20205,7 +20205,7 @@
 18	Solar	O	-	-
 19	System	O	-	-
 20	,	O	-	-
-21	The	B-ORG	-	-
+21	The	O	-	-
 22	Panels	O	-	-
 23	On	O	-	-
 24	The	O	-	-
@@ -20214,7 +20214,7 @@
 27	Great	O	-	-
 28	And	O	-	-
 29	The	O	-	-
-30	Power	I-ORG	-	-
+30	Power	O	-	-
 31	We	O	-	-
 32	Are	O	-	-
 33	Putting	O	-	-
@@ -20378,7 +20378,7 @@
 1	I	O	-	-
 2	used	O	-	-
 3	to	O	-	-
-4	tan	B-LOC	-	-
+4	tan	O	-	-
 5	down	O	-	-
 6	the	O	-	-
 7	street	O	-	-
@@ -20452,7 +20452,7 @@
 7	quality	O	-	-
 8	hotdogs	O	-	-
 9	and	O	-	-
-10	hamburgers	B-LOC	-	-
+10	hamburgers	O	-	-
 11	They	O	-	-
 12	also	O	-	-
 13	offer	O	-	-
@@ -20743,11 +20743,11 @@
 3	TO	O	-	-
 4	4783	O	-	-
 5	Bay	I-LOC	-	-
-6	Rd	I-LOC	-	-
-7	Saginaw	I-LOC	-	-
+6	Rd	O	-	-
+7	Saginaw	O	-	-
 8	,	O	-	-
 9	Michigan	B-LOC	-	-
-10	48604	I-LOC	-	-
+10	48604	O	-	-
 11	(	O	-	-
 12	989	O	-	-
 13	)	O	-	-
@@ -20763,7 +20763,7 @@
 8	drink	O	-	-
 9	for	O	-	-
 10	the	O	-	-
-11	buffet	B-ORG	-	-
+11	buffet	O	-	-
 12	.	O	-	-
 
 1	Worst	O	-	-
@@ -21182,7 +21182,7 @@
 17	than	O	-	-
 18	pizza	O	-	-
 19	from	O	-	-
-20	chicago	B-LOC	-	-
+20	chicago	O	-	-
 21	it	O	-	-
 22	s	O	-	-
 23	the	O	-	-
@@ -21236,7 +21236,7 @@
 5	rat	O	-	-
 6	feces	O	-	-
 
-1	Nice	O	-	-
+1	Nice	B-LOC	-	-
 2	and	O	-	-
 3	quiet	O	-	-
 4	place	O	-	-
@@ -21469,7 +21469,7 @@
 7	for	O	-	-
 8	people	O	-	-
 9	in	O	-	-
-10	chronic	B-LOC	-	-
+10	chronic	O	-	-
 11	intractable	O	-	-
 12	pain	O	-	-
 
@@ -21478,7 +21478,7 @@
 3	for	O	-	-
 4	people	O	-	-
 5	in	O	-	-
-6	chronic	B-LOC	-	-
+6	chronic	O	-	-
 7	pain	O	-	-
 8	.	O	-	-
 
@@ -21504,7 +21504,7 @@
 2	efficient	O	-	-
 3	at	O	-	-
 4	treating	O	-	-
-5	chronic	B-LOC	-	-
+5	chronic	O	-	-
 6	pain	O	-	-
 7	!	O	-	-
 
@@ -21587,7 +21587,7 @@
 6	Fix	O	-	-
 7	appliances	O	-	-
 8	Plumbing	O	-	-
-9	Air	B-ORG	-	-
+9	Air	I-ORG	-	-
 10	Conditioning	I-LOC	-	-
 11	&	O	-	-
 12	Electric	O	-	-
@@ -21601,7 +21601,7 @@
 5	for	O	-	-
 6	plumbing	O	-	-
 7	&	O	-	-
-8	A	B-ORG	-	-
+8	A	O	-	-
 9	/	O	-	-
 10	C	O	-	-
 11	and	O	-	-
@@ -21689,7 +21689,7 @@
 
 1	Ray	B-PER	-	-
 2	's	O	-	-
-3	Pizza	I-PER	-	-
+3	Pizza	O	-	-
 4	is	O	-	-
 5	just	O	-	-
 6	too	O	-	-
@@ -21773,7 +21773,7 @@
 1	Both	O	-	-
 2	Tina	B-PER	-	-
 3	and	O	-	-
-4	Vicky	B-LOC	-	-
+4	Vicky	O	-	-
 5	are	O	-	-
 6	excellent	O	-	-
 7	.	O	-	-
@@ -21788,7 +21788,7 @@
 8	family	O	-	-
 9	:)	O	-	-
 
-1	Prime	O	-	-
+1	Prime	B-ORG	-	-
 2	rib	O	-	-
 3	was	O	-	-
 4	very	O	-	-
@@ -21955,9 +21955,9 @@
 1	Thank	O	-	-
 2	You	O	-	-
 3	Barry	B-PER	-	-
-4	s	I-PER	-	-
+4	s	I-ORG	-	-
 5	Auto	I-ORG	-	-
-6	Tech	I-ORG	-	-
+6	Tech	O	-	-
 7	!	O	-	-
 
 1	Fantastic	O	-	-
@@ -21982,8 +21982,8 @@
 8	.	O	-	-
 
 1	Sand	O	-	-
-2	Hill	O	-	-
-3	park	O	-	-
+2	Hill	B-ORG	-	-
+3	park	I-PER	-	-
 4	was	O	-	-
 5	a	O	-	-
 6	great	O	-	-
@@ -22009,7 +22009,7 @@
 3	the	O	-	-
 4	best	O	-	-
 5	Mediterranean	B-LOC	-	-
-6	Restaurant	I-LOC	-	-
+6	Restaurant	I-ORG	-	-
 7	in	O	-	-
 8	the	O	-	-
 9	West	B-LOC	-	-
@@ -22052,7 +22052,7 @@
 6	!!!!!!!!!!!!!!!!!!!!!!!!!	O	-	-
 
 1	By	O	-	-
-2	samantha	B-PER	-	-
+2	samantha	O	-	-
 3	Fox	O	-	-
 
 1	WONDERFUL	O	-	-
@@ -22245,7 +22245,7 @@
 21	he	O	-	-
 22	is	O	-	-
 23	either	O	-	-
-24	fined	B-PER	-	-
+24	fined	O	-	-
 25	or	O	-	-
 26	sent	O	-	-
 27	to	O	-	-
@@ -22302,8 +22302,8 @@
 14	's	O	-	-
 15	Palestine	B-LOC	-	-
 16	Contemporary	O	-	-
-17	Art	O	-	-
-18	Museum	B-LOC	-	-
+17	Art	B-PER	-	-
+18	Museum	I-LOC	-	-
 19	.	O	-	-
 
 1	He	O	-	-
@@ -22353,7 +22353,7 @@
 20	of	O	-	-
 21	12,000	O	-	-
 22	,	O	-	-
-23	8,000	B-LOC	-	-
+23	8,000	O	-	-
 24	and	O	-	-
 25	5,000	O	-	-
 26	dollars	O	-	-
@@ -22462,9 +22462,9 @@
 6	,	O	-	-
 7	the	O	-	-
 8	Department	B-ORG	-	-
-9	of	I-LOC	-	-
-10	State	I-LOC	-	-
-11	waived	I-LOC	-	-
+9	of	I-ORG	-	-
+10	State	I-ORG	-	-
+11	waived	O	-	-
 12	the	O	-	-
 13	fees	O	-	-
 14	that	O	-	-
@@ -22472,7 +22472,7 @@
 16	charge	O	-	-
 17	for	O	-	-
 18	evacuating	O	-	-
-19	U.S.	B-LOC	-	-
+19	U.S.	O	-	-
 20	citizen	O	-	-
 21	.	O	-	-
 
@@ -22639,11 +22639,11 @@
 2	American	O	-	-
 3	-	O	-	-
 4	Arab	O	-	-
-5	Discrimination	B-LOC	-	-
-6	Committee	O	-	-
+5	Discrimination	O	-	-
+6	Committee	I-ORG	-	-
 7	is	O	-	-
 8	suing	O	-	-
-9	Condoleeza	I-LOC	-	-
+9	Condoleeza	B-PER	-	-
 10	Rice	I-PER	-	-
 11	and	O	-	-
 12	Donald	B-PER	-	-
@@ -22654,7 +22654,7 @@
 17	they	O	-	-
 18	mismanaged	O	-	-
 19	the	O	-	-
-20	evacuation	B-ORG	-	-
+20	evacuation	O	-	-
 21	efforts	O	-	-
 22	.	O	-	-
 
@@ -22981,7 +22981,7 @@
 4	first	O	-	-
 5	whispers	O	-	-
 6	about	O	-	-
-7	Google	O	-	-
+7	Google	B-ORG	-	-
 8	's	O	-	-
 9	IPO	O	-	-
 10	,	O	-	-
@@ -23106,7 +23106,7 @@
 4	that	O	-	-
 5	blessed	O	-	-
 6	,	O	-	-
-7	laudatory	B-LOC	-	-
+7	laudatory	O	-	-
 8	lack	O	-	-
 9	of	O	-	-
 10	clutter	O	-	-
@@ -23214,14 +23214,14 @@
 21	Gmail	O	-	-
 22	,	O	-	-
 23	and	O	-	-
-24	Google	O	-	-
+24	Google	B-ORG	-	-
 25	is	O	-	-
 26	n't	O	-	-
 27	even	O	-	-
 28	as	O	-	-
 29	popular	O	-	-
 30	as	O	-	-
-31	Yahoo!	O	-	-
+31	Yahoo!	B-ORG	-	-
 32	and	O	-	-
 33	AOL	O	-	-
 34	.	O	-	-
@@ -23480,17 +23480,17 @@
 14	judge	O	-	-
 15	of	O	-	-
 16	the	O	-	-
-17	Superior	B-ORG	-	-
-18	Court	O	-	-
-19	of	I-ORG	-	-
+17	Superior	B-PER	-	-
+18	Court	I-ORG	-	-
+19	of	O	-	-
 20	the	O	-	-
 21	District	O	-	-
-22	of	I-ORG	-	-
-23	Columbia	O	-	-
+22	of	I-LOC	-	-
+23	Columbia	I-LOC	-	-
 24	,	O	-	-
 25	replacing	O	-	-
 26	Steffen	O	-	-
-27	W.	I-PER	-	-
+27	W.	B-PER	-	-
 28	Graae	O	-	-
 29	.	O	-	-
 
@@ -23501,7 +23501,7 @@
 3	nominated	O	-	-
 4	A.	B-PER	-	-
 5	Noel	I-PER	-	-
-6	Anketell	I-PER	-	-
+6	Anketell	O	-	-
 7	Kramer	O	-	-
 8	for	O	-	-
 9	a	O	-	-
@@ -23516,9 +23516,9 @@
 18	the	O	-	-
 19	District	O	-	-
 20	of	O	-	-
-21	Columbia	B-LOC	-	-
+21	Columbia	B-ORG	-	-
 22	Court	I-ORG	-	-
-23	of	I-ORG	-	-
+23	of	O	-	-
 24	Appeals	O	-	-
 25	,	O	-	-
 26	replacing	O	-	-
@@ -23536,7 +23536,7 @@
 7	other	O	-	-
 8	writers	O	-	-
 9	at	O	-	-
-10	legnth	B-LOC	-	-
+10	legnth	O	-	-
 11	in	O	-	-
 12	this	O	-	-
 13	space	O	-	-
@@ -23550,13 +23550,13 @@
 21	's	O	-	-
 22	"	O	-	-
 23	White	B-ORG	-	-
-24	House	I-ORG	-	-
+24	House	I-LOC	-	-
 25	Briefing	O	-	-
 26	"	O	-	-
 27	column	O	-	-
 28	in	O	-	-
 29	the	O	-	-
-30	WashPost	B-ORG	-	-
+30	WashPost	O	-	-
 31	today	O	-	-
 32	is	O	-	-
 33	just	O	-	-
@@ -23795,7 +23795,7 @@
 11	Koerner	O	-	-
 12	called	O	-	-
 13	'	O	-	-
-14	A	B-ORG	-	-
+14	A	O	-	-
 15	Charge	O	-	-
 16	to	O	-	-
 17	Keep	O	-	-
@@ -23816,7 +23816,7 @@
 12	guy	O	-	-
 13	named	O	-	-
 14	Joe	B-PER	-	-
-15	O'Neill	O	-	-
+15	O'Neill	I-PER	-	-
 16	in	O	-	-
 17	Midland	B-LOC	-	-
 18	,	O	-	-
@@ -23846,7 +23846,7 @@
 21	in	O	-	-
 22	July	O	-	-
 23	of	O	-	-
-24	1977	B-LOC	-	-
+24	1977	O	-	-
 25	.	O	-	-
 
 1	Four	O	-	-
@@ -23924,7 +23924,7 @@
 1	That	O	-	-
 2	's	O	-	-
 3	a	O	-	-
-4	Senate	O	-	-
+4	Senate	B-ORG	-	-
 5	term	O	-	-
 6	--	O	-	-
 7	particularly	O	-	-
@@ -23975,11 +23975,11 @@
 4	based	O	-	-
 5	upon	O	-	-
 6	the	O	-	-
-7	hymn	B-ORG	-	-
+7	hymn	O	-	-
 8	called	O	-	-
 9	,	O	-	-
 10	'	O	-	-
-11	A	B-ORG	-	-
+11	A	O	-	-
 12	Charge	O	-	-
 13	to	O	-	-
 14	Keep	O	-	-
@@ -24116,7 +24116,7 @@
 15	memoir	O	-	-
 16	called	O	-	-
 17	"	O	-	-
-18	A	B-ORG	-	-
+18	A	O	-	-
 19	Charge	O	-	-
 20	to	O	-	-
 21	Keep	O	-	-
@@ -24138,7 +24138,7 @@
 13	written	O	-	-
 14	by	O	-	-
 15	adviser	O	-	-
-16	Karen	I-PER	-	-
+16	Karen	B-PER	-	-
 17	Hughes	I-PER	-	-
 18	in	O	-	-
 19	1999	O	-	-
@@ -24158,7 +24158,7 @@
 12	weapons	O	-	-
 13	.	O	-	-
 
-1	Al	B-PER	-	-
+1	Al	B-ORG	-	-
 2	-	I-ORG	-	-
 3	Qaeda	I-ORG	-	-
 4	wants	O	-	-
@@ -24353,7 +24353,7 @@
 10	EU	B-LOC	-	-
 11	,	O	-	-
 12	and	O	-	-
-13	IAEA	O	-	-
+13	IAEA	B-ORG	-	-
 14	.	O	-	-
 
 1	But	O	-	-
@@ -24435,7 +24435,7 @@
 23	concern	O	-	-
 24	.	O	-	-
 
-1	North	B-ORG	-	-
+1	North	B-LOC	-	-
 2	Korea	I-LOC	-	-
 3	’s	O	-	-
 4	Kim	B-PER	-	-
@@ -24452,7 +24452,7 @@
 15	his	O	-	-
 16	list	O	-	-
 17	and	O	-	-
-18	Santa	O	-	-
+18	Santa	B-LOC	-	-
 19	seems	O	-	-
 20	to	O	-	-
 21	have	O	-	-
@@ -24562,7 +24562,7 @@
 3	eastern	O	-	-
 4	city	O	-	-
 5	of	O	-	-
-6	Baqubah	B-LOC	-	-
+6	Baqubah	O	-	-
 7	,	O	-	-
 8	guerrillas	O	-	-
 9	detonated	O	-	-
@@ -24609,7 +24609,7 @@
 3	,	O	-	-
 4	hundreds	O	-	-
 5	of	O	-	-
-6	demonstrators	B-LOC	-	-
+6	demonstrators	O	-	-
 7	came	O	-	-
 8	out	O	-	-
 9	against	O	-	-
@@ -24746,7 +24746,7 @@
 7	Fallujah	B-LOC	-	-
 8	,	O	-	-
 9	50	O	-	-
-10	km	B-LOC	-	-
+10	km	O	-	-
 11	west	O	-	-
 12	of	O	-	-
 13	Baghdad	B-LOC	-	-
@@ -24770,7 +24770,7 @@
 
 1	Ash	O	-	-
 2	-	O	-	-
-3	Sharq	I-PER	-	-
+3	Sharq	B-PER	-	-
 4	al	I-PER	-	-
 5	-	I-PER	-	-
 6	Awsat	I-PER	-	-
@@ -24816,8 +24816,8 @@
 2	Shiite	O	-	-
 3	cleric	O	-	-
 4	Muqtada	O	-	-
-5	al	B-ORG	-	-
-6	-	I-ORG	-	-
+5	al	I-ORG	-	-
+6	-	I-PER	-	-
 7	Sadr	I-LOC	-	-
 8	said	O	-	-
 9	the	O	-	-
@@ -24830,7 +24830,7 @@
 16	that	O	-	-
 17	"	O	-	-
 18	the	O	-	-
-19	Zionists	B-ORG	-	-
+19	Zionists	O	-	-
 20	have	O	-	-
 21	left	O	-	-
 22	only	O	-	-
@@ -24851,7 +24851,7 @@
 1	The	O	-	-
 2	interim	O	-	-
 3	Governing	O	-	-
-4	Council	O	-	-
+4	Council	I-ORG	-	-
 5	issued	O	-	-
 6	a	O	-	-
 7	communique	O	-	-
@@ -24933,7 +24933,7 @@
 22	that	O	-	-
 23	of	O	-	-
 24	the	O	-	-
-25	Palestinian	B-ORG	-	-
+25	Palestinian	O	-	-
 26	people	O	-	-
 27	,	O	-	-
 28	under	O	-	-
@@ -24969,12 +24969,12 @@
 24	a	O	-	-
 25	bus	O	-	-
 26	near	O	-	-
-27	Hilla	B-LOC	-	-
+27	Hilla	O	-	-
 28	and	O	-	-
 29	two	O	-	-
 30	police	O	-	-
 31	in	O	-	-
-32	Kirkuk	B-LOC	-	-
+32	Kirkuk	O	-	-
 33	.	O	-	-
 
 1	The	O	-	-
@@ -24985,10 +24985,10 @@
 6	a	O	-	-
 7	fight	O	-	-
 8	with	O	-	-
-9	Muqtada	B-PER	-	-
-10	al	B-PER	-	-
+9	Muqtada	O	-	-
+10	al	O	-	-
 11	-	I-PER	-	-
-12	Sadr	I-PER	-	-
+12	Sadr	I-LOC	-	-
 13	's	O	-	-
 14	movement	O	-	-
 15	only	O	-	-
@@ -24996,7 +24996,7 @@
 17	months	O	-	-
 18	before	O	-	-
 19	the	O	-	-
-20	Coalition	O	-	-
+20	Coalition	B-ORG	-	-
 21	Provisional	O	-	-
 22	Authority	I-ORG	-	-
 23	goes	O	-	-
@@ -25014,7 +25014,7 @@
 35	gross	O	-	-
 36	incompetence	O	-	-
 37	in	O	-	-
-38	governance	B-LOC	-	-
+38	governance	O	-	-
 39	.	O	-	-
 
 1	How	O	-	-
@@ -25145,7 +25145,7 @@
 3	in	O	-	-
 4	the	O	-	-
 5	Department	B-ORG	-	-
-6	of	I-LOC	-	-
+6	of	I-ORG	-	-
 7	Defense	I-ORG	-	-
 8	only	O	-	-
 9	know	O	-	-
@@ -25195,13 +25195,13 @@
 1	They	O	-	-
 2	actively	O	-	-
 3	excluded	O	-	-
-4	State	O	-	-
+4	State	B-ORG	-	-
 5	Department	I-ORG	-	-
-6	Iraq	I-LOC	-	-
+6	Iraq	B-LOC	-	-
 7	hands	O	-	-
 8	like	O	-	-
 9	Tom	B-PER	-	-
-10	Warrick	O	-	-
+10	Warrick	I-PER	-	-
 11	.	O	-	-
 
 1	(	O	-	-
@@ -25211,9 +25211,9 @@
 5	a	O	-	-
 6	few	O	-	-
 7	experienced	O	-	-
-8	State	O	-	-
-9	Department	B-ORG	-	-
-10	Arabists	I-LOC	-	-
+8	State	B-ORG	-	-
+9	Department	O	-	-
+10	Arabists	O	-	-
 11	been	O	-	-
 12	allowed	O	-	-
 13	in	O	-	-
@@ -25252,7 +25252,7 @@
 22	people	O	-	-
 23	,	O	-	-
 24	including	O	-	-
-25	Polish	B-LOC	-	-
+25	Polish	O	-	-
 26	-	O	-	-
 27	style	O	-	-
 28	economic	O	-	-
@@ -25281,7 +25281,7 @@
 
 1	The	O	-	-
 2	Washington	B-LOC	-	-
-3	Monthly	I-LOC	-	-
+3	Monthly	O	-	-
 4	's	O	-	-
 5	Who	O	-	-
 6	's	O	-	-
@@ -25352,7 +25352,7 @@
 43	to	O	-	-
 44	the	O	-	-
 45	Asian	O	-	-
-46	Times	O	-	-
+46	Times	I-ORG	-	-
 47	.	O	-	-
 
 1	I	O	-	-
@@ -25547,7 +25547,7 @@
 2	A	O	-	-
 3	radical	O	-	-
 4	Shiite	O	-	-
-5	Muslim	B-ORG	-	-
+5	Muslim	O	-	-
 6	cleric	O	-	-
 7	has	O	-	-
 8	expressed	O	-	-
@@ -25589,7 +25589,7 @@
 11	solidarity	O	-	-
 12	which	O	-	-
 13	Hassan	B-PER	-	-
-14	Nasrallah	I-LOC	-	-
+14	Nasrallah	O	-	-
 15	called	O	-	-
 16	for	O	-	-
 17	to	O	-	-
@@ -25601,8 +25601,8 @@
 23	Shiite	O	-	-
 24	cleric	O	-	-
 25	Muqtada	O	-	-
-26	al	B-ORG	-	-
-27	-	I-ORG	-	-
+26	al	I-ORG	-	-
+27	-	I-PER	-	-
 28	Sadr	I-LOC	-	-
 29	said	O	-	-
 30	Friday	O	-	-
@@ -25663,8 +25663,8 @@
 23	,	O	-	-
 24	"	O	-	-
 25	al	B-ORG	-	-
-26	-	I-ORG	-	-
-27	Sadr	I-PER	-	-
+26	-	I-PER	-	-
+27	Sadr	I-LOC	-	-
 28	said	O	-	-
 29	during	O	-	-
 30	a	O	-	-
@@ -25672,7 +25672,7 @@
 32	prayer	O	-	-
 33	sermon	O	-	-
 34	in	O	-	-
-35	Kufa	B-LOC	-	-
+35	Kufa	O	-	-
 36	,	O	-	-
 37	his	O	-	-
 38	home	O	-	-
@@ -25703,7 +25703,7 @@
 6	chief	O	-	-
 7	aide	O	-	-
 8	in	O	-	-
-9	Najaf	B-LOC	-	-
+9	Najaf	O	-	-
 10	was	O	-	-
 11	suddenly	O	-	-
 12	arrested	O	-	-
@@ -25780,7 +25780,7 @@
 24	.	O	-	-
 
 1	Anthony	B-PER	-	-
-2	Shadid	I-PER	-	-
+2	Shadid	O	-	-
 3	of	O	-	-
 4	the	O	-	-
 5	Washington	B-LOC	-	-
@@ -25844,16 +25844,16 @@
 13	Shaikh	B-PER	-	-
 14	Abdul	I-PER	-	-
 15	Wahhab	I-PER	-	-
-16	al	I-PER	-	-
+16	al	B-PER	-	-
 17	-	I-PER	-	-
-18	Janabi	I-PER	-	-
-19	of	I-ORG	-	-
+18	Janabi	O	-	-
+19	of	O	-	-
 20	the	O	-	-
 21	respected	O	-	-
-22	Association	B-ORG	-	-
+22	Association	I-ORG	-	-
 23	of	O	-	-
-24	Muslim	B-LOC	-	-
-25	Scholars	I-LOC	-	-
+24	Muslim	O	-	-
+25	Scholars	O	-	-
 26	.	O	-	-
 
 1	Armed	O	-	-
@@ -25876,7 +25876,7 @@
 18	in	O	-	-
 19	Mosul	B-LOC	-	-
 20	,	O	-	-
-21	Baiji	B-LOC	-	-
+21	Baiji	O	-	-
 22	,	O	-	-
 23	and	O	-	-
 24	Tuz	O	-	-
@@ -25894,7 +25894,7 @@
 10	in	O	-	-
 11	Tikrit	B-LOC	-	-
 12	and	O	-	-
-13	Huwaijah	B-LOC	-	-
+13	Huwaijah	O	-	-
 14	,	O	-	-
 15	as	O	-	-
 16	well	O	-	-
@@ -25902,8 +25902,8 @@
 18	according	O	-	-
 19	to	O	-	-
 20	az	O	-	-
-21	-	O	-	-
-22	Zaman	B-LOC	-	-
+21	-	I-ORG	-	-
+22	Zaman	I-ORG	-	-
 23	.	O	-	-
 
 1	The	O	-	-
@@ -25932,8 +25932,8 @@
 10	Minister	O	-	-
 11	of	O	-	-
 12	Defense	B-ORG	-	-
-13	Hazem	I-ORG	-	-
-14	Shaalan	I-LOC	-	-
+13	Hazem	O	-	-
+14	Shaalan	O	-	-
 15	in	O	-	-
 16	retaliation	O	-	-
 17	for	O	-	-
@@ -25967,7 +25967,7 @@
 24	if	O	-	-
 25	the	O	-	-
 26	Fallujah	B-LOC	-	-
-27	compaign	I-LOC	-	-
+27	compaign	O	-	-
 28	is	O	-	-
 29	not	O	-	-
 30	stopped	O	-	-
@@ -26053,7 +26053,7 @@
 1	The	O	-	-
 2	intrepid	O	-	-
 3	Ed	B-PER	-	-
-4	Wong	I-LOC	-	-
+4	Wong	I-PER	-	-
 5	of	O	-	-
 6	the	O	-	-
 7	NYT	O	-	-
@@ -26072,7 +26072,7 @@
 2	reports	O	-	-
 3	that	O	-	-
 4	the	O	-	-
-5	Iraqi	O	-	-
+5	Iraqi	B-ORG	-	-
 6	Islamic	I-ORG	-	-
 7	Party	I-ORG	-	-
 8	,	O	-	-
@@ -26113,7 +26113,7 @@
 8	the	O	-	-
 9	Sunni	O	-	-
 10	Arab	O	-	-
-11	regions	B-ORG	-	-
+11	regions	O	-	-
 12	on	O	-	-
 13	Wednesday	O	-	-
 14	did	O	-	-
@@ -26158,8 +26158,8 @@
 6	Fallujah	B-LOC	-	-
 7	,	O	-	-
 8	see	O	-	-
-9	Unconfirmed	B-LOC	-	-
-10	Sources	I-LOC	-	-
+9	Unconfirmed	O	-	-
+10	Sources	O	-	-
 11	which	O	-	-
 12	has	O	-	-
 13	some	O	-	-
@@ -26206,13 +26206,13 @@
 9	's	O	-	-
 10	passing	O	-	-
 11	for	O	-	-
-12	al	B-PER	-	-
+12	al	B-ORG	-	-
 13	-	I-ORG	-	-
 14	Qaeda	I-ORG	-	-
 15	has	O	-	-
 16	appeared	O	-	-
 17	at	O	-	-
-18	Newsday	B-LOC	-	-
+18	Newsday	O	-	-
 19	.	O	-	-
 
 1	Excerpt	O	-	-
@@ -26256,7 +26256,7 @@
 5	of	O	-	-
 6	the	O	-	-
 7	occupied	O	-	-
-8	Palestinian	B-ORG	-	-
+8	Palestinian	O	-	-
 9	territories	O	-	-
 10	during	O	-	-
 11	the	O	-	-
@@ -26334,7 +26334,7 @@
 11	a	O	-	-
 12	way	O	-	-
 13	to	O	-	-
-14	reinvigorate	B-LOC	-	-
+14	reinvigorate	O	-	-
 15	the	O	-	-
 16	peace	O	-	-
 17	process	O	-	-
@@ -26350,7 +26350,7 @@
 27	that	O	-	-
 28	look	O	-	-
 29	to	O	-	-
-30	bin	B-ORG	-	-
+30	bin	B-PER	-	-
 31	Laden	I-PER	-	-
 32	for	O	-	-
 33	their	O	-	-
@@ -26367,9 +26367,9 @@
 8	enough	O	-	-
 9	to	O	-	-
 10	keep	O	-	-
-11	al	B-ORG	-	-
-12	-	I-ORG	-	-
-13	Qaida	I-LOC	-	-
+11	al	B-PER	-	-
+12	-	I-PER	-	-
+13	Qaida	O	-	-
 14	out	O	-	-
 15	,	O	-	-
 16	the	O	-	-
@@ -26386,8 +26386,8 @@
 27	posters	O	-	-
 28	for	O	-	-
 29	al	B-ORG	-	-
-30	-	I-ORG	-	-
-31	Qaida	I-LOC	-	-
+30	-	O	-	-
+31	Qaida	O	-	-
 32	with	O	-	-
 33	young	O	-	-
 34	Muslim	O	-	-
@@ -26504,11 +26504,11 @@
 30	browser	O	-	-
 31	technology	O	-	-
 32	in	O	-	-
-33	Firefox	B-LOC	-	-
+33	Firefox	O	-	-
 34	.	O	-	-
 
 1	Ben	B-PER	-	-
-2	Goodger	O	-	-
+2	Goodger	I-PER	-	-
 3	is	O	-	-
 4	the	O	-	-
 5	lead	O	-	-
@@ -26538,14 +26538,14 @@
 11	income	O	-	-
 12	changed	O	-	-
 13	from	O	-	-
-14	The	B-ORG	-	-
+14	The	O	-	-
 15	Mozilla	O	-	-
 16	Foundation	O	-	-
 17	to	O	-	-
-18	Google	O	-	-
+18	Google	B-ORG	-	-
 19	,	O	-	-
 20	Inc.	I-ORG	-	-
-21	of	O	-	-
+21	of	I-LOC	-	-
 22	Mountain	I-ORG	-	-
 23	View	O	-	-
 24	,	O	-	-
@@ -26639,14 +26639,14 @@
 10	!	O	-	-
 11	"	O	-	-
 12	to	O	-	-
-13	Darin	B-LOC	-	-
-14	Darin	I-LOC	-	-
-15	Fisher	I-LOC	-	-
+13	Darin	O	-	-
+14	Darin	O	-	-
+15	Fisher	O	-	-
 16	who	O	-	-
 17	joined	O	-	-
 18	me	O	-	-
 19	at	O	-	-
-20	Google	B-LOC	-	-
+20	Google	O	-	-
 21	this	O	-	-
 22	week	O	-	-
 23	.	O	-	-
@@ -26744,9 +26744,9 @@
 7	to	O	-	-
 8	welcome	O	-	-
 9	Brian	B-PER	-	-
-10	Ryner	O	-	-
+10	Ryner	I-PER	-	-
 11	to	O	-	-
-12	Google	O	-	-
+12	Google	B-ORG	-	-
 13	!	O	-	-
 
 1	Brian	B-PER	-	-
@@ -26762,7 +26762,7 @@
 11	the	O	-	-
 12	success	O	-	-
 13	of	O	-	-
-14	Mozilla	B-LOC	-	-
+14	Mozilla	O	-	-
 15	software	O	-	-
 16	over	O	-	-
 17	the	O	-	-
@@ -26837,9 +26837,9 @@
 21	that	O	-	-
 22	formalizes	O	-	-
 23	the	O	-	-
-24	Google	O	-	-
+24	Google	B-ORG	-	-
 25	-	O	-	-
-26	Mozilla	B-LOC	-	-
+26	Mozilla	O	-	-
 27	/	O	-	-
 28	Firefox	O	-	-
 29	relationship	O	-	-
@@ -26881,8 +26881,8 @@
 34	with	O	-	-
 35	music	O	-	-
 36	by	O	-	-
-37	Aaron	B-ORG	-	-
-38	McLeran	I-ORG	-	-
+37	Aaron	B-PER	-	-
+38	McLeran	I-PER	-	-
 39	.	O	-	-
 
 1	In	O	-	-
@@ -26890,7 +26890,7 @@
 3	movie	O	-	-
 4	Google	O	-	-
 5	and	O	-	-
-6	Amazon	B-LOC	-	-
+6	Amazon	O	-	-
 7	(	O	-	-
 8	GOOGLEZON	O	-	-
 9	)	O	-	-
@@ -27016,7 +27016,7 @@
 33	leading	O	-	-
 34	lights	O	-	-
 35	in	O	-	-
-36	Firefox	B-LOC	-	-
+36	Firefox	O	-	-
 37	development	O	-	-
 38	,	O	-	-
 39	they	O	-	-

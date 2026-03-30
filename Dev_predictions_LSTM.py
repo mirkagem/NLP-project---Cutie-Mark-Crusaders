@@ -108,20 +108,22 @@ class TaggerModel(torch.nn.Module):
     def __init__(self, nwords, ntags):
         super().__init__()
         self.word_embedding = nn.Embedding(nwords, DIM_EMBEDDING)
-        self.rnn = nn.LSTM(DIM_EMBEDDING, RNN_HIDDEN, batch_first=True) #edited
-        self.hidden_to_tag = nn.Linear(RNN_HIDDEN, ntags)
+        self.dropout = nn.Dropout(0.3)         #edit
+        self.rnn = nn.LSTM(DIM_EMBEDDING, RNN_HIDDEN, batch_first=True, bidirectional=True) #edited -- yes, we call it RNN but it is LSTM
+        self.hidden_to_tag = nn.Linear(RNN_HIDDEN*2, ntags)             #edited (*2)
     
     def forward(self, inputData):                               #also edited
-        word_vectors = self.word_embedding(inputData)
+        word_vectors = self.dropout(self.word_embedding(inputData))
         lstm_out, _ = self.rnn(word_vectors)  # ignore (h, c)
-        tag_space = self.hidden_to_tag(lstm_out)
+        tag_space = self.hidden_to_tag(self.dropout(lstm_out))  #edit
         return tag_space
     
 torch.manual_seed(0)
 DIM_EMBEDDING = 100
 RNN_HIDDEN = 50
 BATCH_SIZE = 16
-LEARNING_RATE = 0.01        #Epoch 9: Loss = 9.0330583427276 -- for learning rate 0.001 , # Epoch 9: Loss = 7.238125507701625 -- for 0.01
+LEARNING_RATE = 0.01        #One directional: Epoch 9: Loss = 9.0330583427276 -- for learning rate 0.001 , # Epoch 9: Loss = 7.238125507701625 -- for 0.01
+                            #Biderectional: LEARNING_RATE = 0.001 ---> 
 EPOCHS = 10
 
 train_data = read_iob2_file('en_ewt-ud-train.iob2')
