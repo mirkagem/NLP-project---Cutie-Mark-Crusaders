@@ -103,6 +103,16 @@ def save_predictions(decoded_data, filename):
                 f.write(f"{word}\t-\t{tag}\n")
             f.write("\n")
 
+def save_predictions(decoded_data, filename):
+    """
+    Saves predictions in the same format as training data: index \t word \t tag \t - \t -
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        for sentence in decoded_data:
+            for i, (word, tag) in enumerate(sentence, start=1):
+                f.write(f"{i}\t{word}\t{tag}\t-\t-\n")
+            f.write("\n")
+
 class TaggerModel(torch.nn.Module):
     def __init__(self, nwords, ntags):
         super().__init__()
