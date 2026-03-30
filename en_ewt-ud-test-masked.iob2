@@ -21,7 +21,7 @@
 # sent_id = answers-20081218053636AA9vV0u_ans-0001
 # text = what is a good slogan for an Argentinian restaurant?
 1	what	O	-	-
-2	is	O	-	-
+2	is  O	-	-
 3	a	O	-	-
 4	good	O	-	-
 5	slogan	O	-	-
