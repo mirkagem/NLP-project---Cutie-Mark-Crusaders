@@ -126,7 +126,6 @@ EPOCHS = 10
 
 train_data = read_iob2_file('en_ewt-ud-train.iob2')
 dev_data = read_iob2_file('en_ewt-ud-dev.iob2')
-test_data = read_iob2_file('en_ewt-ud-test-masked.iob2')
 
 word_vocab = Vocab()
 label_vocab = Vocab()
@@ -135,7 +134,6 @@ max_len= max([len(x[0]) for x in train_data ])
 
 train_x, train_y = convert_data(train_data, max_len, word_vocab, label_vocab, True)
 dev_x, dev_y = convert_data(dev_data, max_len, word_vocab, label_vocab)
-test_x, test_y = convert_data(test_data, max_len, word_vocab, label_vocab)
 
 train_x_batches, train_y_batches = create_batches(train_x, train_y, BATCH_SIZE, max_len)
 
@@ -166,7 +164,7 @@ for epoch in range(EPOCHS):
     print(f"Epoch {epoch}: Loss = {total_loss}")
 
 
-test_preds = predict(model, test_x)
-decoded_test = decode_predictions(test_preds, label_vocab, test_data)
+test_preds = predict(model, dev_x)
+decoded_test = decode_predictions(test_preds, label_vocab, dev_data)
 
-save_predictions(decoded_test, "test_predictions.iob2")
+save_predictions(decoded_test, "dev_predictions.iob2")
