@@ -123,7 +123,7 @@ DIM_EMBEDDING = 100
 RNN_HIDDEN = 128
 BATCH_SIZE = 16
 LEARNING_RATE = 0.01        #One directional: Epoch 9: Loss = 9.0330583427276 -- for learning rate 0.001 , # Epoch 9: Loss = 7.238125507701625 -- for 0.01
-                            #Biderectional: LEARNING_RATE = 0.001 ---> 
+                            #Biderectional: LEARNING_RATE = 0.01 ---> 16.18442649153485 (lower learning rate gave horrible F1 score)
 EPOCHS = 10
 
 train_data = read_iob2_file('en_ewt-ud-train.iob2')
