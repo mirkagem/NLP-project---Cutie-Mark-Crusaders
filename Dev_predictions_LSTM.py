@@ -120,7 +120,7 @@ class TaggerModel(torch.nn.Module):
     
 torch.manual_seed(0)
 DIM_EMBEDDING = 100
-RNN_HIDDEN = 50
+RNN_HIDDEN = 128
 BATCH_SIZE = 16
 LEARNING_RATE = 0.01        #One directional: Epoch 9: Loss = 9.0330583427276 -- for learning rate 0.001 , # Epoch 9: Loss = 7.238125507701625 -- for 0.01
                             #Biderectional: LEARNING_RATE = 0.001 ---> 
