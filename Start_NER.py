@@ -29,7 +29,7 @@ dataset.create()
 
 df = pd.read_csv(file_name)
 
-records = [rg.Record(fields={"text": str(row["sentence"])}) for _, row in df.iterrows()]
+records = [rg.Record(fields={"text": str(row["text"])}) for _, row in df.iterrows()]
 dataset.records.log(records)
 
 print("Dataset created! Refresh your browser.")
