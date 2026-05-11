@@ -13,7 +13,7 @@ settings = rg.Settings(
         rg.SpanQuestion(
             name="ner_tags",
             field="text",
-            labels=["PER", "LOC", "ORG", "MISC"], # Change these to your project labels
+            labels=["PER", "LOC", "ORG", "MISC"],
             title="Identify Entities"
         )
     ],
@@ -21,15 +21,15 @@ settings = rg.Settings(
 )
 
 dataset = rg.Dataset(
-    name="my_ner_project",
+    name="Final annotation",
     settings=settings,
     workspace="admin"
 )
 dataset.create()
 
-df = pd.read_csv(file_name)
+df = pd.read_csv(file_name, header=None)
 
-records = [rg.Record(fields={"text": str(row["text"])}) for _, row in df.iterrows()]
+records = [rg.Record(fields={"text": str(row[0])}) for _, row in df.iterrows()]
 dataset.records.log(records)
 
 print("Dataset created! Refresh your browser.")
