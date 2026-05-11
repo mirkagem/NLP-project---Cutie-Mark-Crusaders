@@ -6,7 +6,6 @@ from collections import defaultdict
 from spacy.training import Example
 from spacy.util import fix_random_seed
 
-
 random.seed(1)
 fix_random_seed(1)
 
@@ -31,12 +30,8 @@ by_language = defaultdict(list)
 
 for item in data:
     language = item["language"]
-
     text = item["text"]
-
     text = text.replace("\r", "")
-    # text = text.replace("\xa0", " ")       
-    # text = text.replace("\u200b", "")
 
     responses = ast.literal_eval(item["responses"])
     gold_entities = responses["ner_tags"][0]["value"]
@@ -87,6 +82,7 @@ for language, m in metrics.items():
 
     print(f"{language:<15} {p:<10.3f} {r:<10.3f} {f1:<10.3f}")
 
+
 print("\nTraining...\n")
 
 train_data = []
@@ -95,7 +91,7 @@ test_data = []
 for language, items in by_language.items():
     random.shuffle(items)
 
-    split = (len(items) // 5) * 4
+    split = (len(items) // 5) * 3
 
     train_data.extend(items[:split])
     test_data.extend(items[split:])
@@ -158,7 +154,7 @@ for text, annotations, language in test_data:
     trained_metrics["all"]["predicted"] += len(pred_entities)
     trained_metrics["all"]["gold"] += len(gold_entities)
 
-print("\nPerformance on ?? percent of data after additional training:\n")
+print("\nPerformance on 40 percent of data after additional training:\n")
 
 print(f"{'Language':<15} {'Precision':<10} {'Recall':<10} {'F1':<10}")
 print("-" * 50)
