@@ -1,12 +1,14 @@
 import argilla as rg
 import json
 
+annotation_name = input("Enter the name of your annotation(e.g., Final annotation): ")
+
 client = rg.Argilla(
     api_url="http://localhost:6900",
     api_key="admin.apikey"
 )
 
-dataset = client.datasets("Final annotation")
+dataset = client.datasets("annotation_name")
 
 records = list(dataset.records())
 
