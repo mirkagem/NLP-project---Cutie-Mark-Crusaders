@@ -272,8 +272,6 @@ def finetune(train_data, test_data, model_name, output_dir="./finetuned-ner"):
     )
 
     trainer.train()
-    trainer.save_model(output_dir)
-    print(f"\nFine-tuned model saved to: {output_dir}")
     return trainer, tokenizer
 
 
@@ -297,11 +295,8 @@ def compute_metrics_hf(eval_pred):
         "f1":        results["overall_f1"],
     }
 
-def evaluate_finetuned(test_data, model_dir="./finetuned-ner"):
-    print(f"\nLoading fine-tuned model from {model_dir}...")
-    ner_pipeline = load_ner_pipeline(model_name=model_dir)
-
-    overall, label_counts, lang_stats = run_evaluation(test_data, ner_pipeline)
+def evaluate_finetuned(test_data, model):
+    overall, label_counts, lang_stats = run_evaluation(test_data, model)
     print_results(overall, label_counts, lang_stats)
 
 # Label schema — must match what xlm-roberta-large-finetuned-conll03 uses (I checked it in the Roberta exploration file)
@@ -334,7 +329,7 @@ print_language_distribution(test_data, "Test")
 #converting dataset into token-level BIO labels
 #The model expects tokenized data with NER labels in conll or similar format - so we need to make it that way
 trainer, tokenizer = finetune(train_data, test_data, model_name)
-evaluate_finetuned(test_data)
+evaluate_finetuned(test_data, trainer)
 
 
 # LABEL_LIST = ["O", "PER", "LOC", "ORG", "MISC"]
