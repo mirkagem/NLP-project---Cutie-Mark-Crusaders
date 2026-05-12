@@ -330,7 +330,7 @@ print_language_distribution(test_data, "Test")
 
 #converting dataset into token-level BIO labels
 #The model expects tokenized data with NER labels in conll or similar format - so we need to make it that way
-# trainer, tokenizer = finetune(train_data, test_data, model_name)
+trainer, tokenizer = finetune(train_data, test_data, model_name)
 evaluate_finetuned(test_data)
 
 
