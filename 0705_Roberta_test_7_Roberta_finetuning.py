@@ -295,14 +295,14 @@ def finetune_model(train_data, model_name, output_dir="./finetuned_ner",
 #ACTUALLY RUNNING THE CODE: --------------------------------------------------------------------------------------
 
 # if __name__ == "__main__":
-JSON_PATH  = "combined_annotations_final2.json"      #changed in version 4
+JSON_PATH  = "combined_annotations_final.json"      #changed in version 4
 MODEL_NAME = "FacebookAI/xlm-roberta-large-finetuned-conll03-english"
 OUTPUT_DIR = "./finetuned_ner"
 
 data = load_data(JSON_PATH)
 
 # Split data
-train_data, test_data = split_data(data, test_size=0.2, random_state=77)  # NEW
+train_data, test_data = split_data(data, test_size=0.4, random_state=77)  # NEW
 # Fine-tune on train split
 finetune_model(train_data, MODEL_NAME, OUTPUT_DIR, num_epochs=3, batch_size=4)  # NEW
 # Load fine-tuned model
