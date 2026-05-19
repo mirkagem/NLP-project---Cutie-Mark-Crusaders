@@ -1,7 +1,14 @@
 import json
 import ast
+from transformers import pipeline, AutoTokenizer, AutoModelForTokenClassification
 
-with open("combined_annotations_final.json", encoding="utf-8") as f:
+
+model_name = "FacebookAI/xlm-roberta-large-finetuned-conll03-english"
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForTokenClassification.from_pretrained(model_name)
+
+with open("testing_json.json", encoding="utf-8") as f:
     data = json.load(f)
 
 def convert_to_ner_tags(text, spans):
@@ -27,7 +34,6 @@ def convert_to_ner_tags(text, spans):
     token_labels = []
 
     for (start, end) in offsets:
-        token_labels[i] = l[start]
         if start == 0 and end == 0:
             # Special tokens like [CLS], [SEP]
             token_labels.append("O")
@@ -35,3 +41,10 @@ def convert_to_ner_tags(text, spans):
             token_labels.append(l[start])
 
     return tokens, token_labels
+
+for poem in data:
+    responses = ast.literal_eval(poem["responses"])
+    entities = responses["ner_tags"][0]["value"]
+    tokens, token_labels = convert_to_ner_tags(poem['text'], entities)
+    print(poem['text'])
+    print(tokens, token_labels)

@@ -42,7 +42,6 @@ def convert_to_ner_tags(text, spans):
     token_labels = []
 
     for (start, end) in offsets:
-        token_labels[i] = l[start]
         if start == 0 and end == 0:
             # Special tokens like [CLS], [SEP]
             token_labels.append("O")
@@ -65,7 +64,22 @@ for poem in data:
     gold_entities = responses["ner_tags"][0]["value"]
 
 
-    if language == 'Bulgarian':
-        gold_entities = [(e["start"] - 1, e["end"] - 1, e["label"]) for e in gold_entities] 
-    else:
-        gold_entities = [(e["start"], e["end"], e["label"]) for e in gold_entities]
+
+    
+    
+    ID2LABEL = {
+    0: 'O',
+    1: 'B-PER', 2: 'I-PER',
+    3: 'B-ORG', 4: 'I-ORG',
+    5: 'B-LOC', 6: 'I-LOC',
+    7: 'B-MISC', 8: 'I-MISC',}
+    LABEL2ID = {v: k for k, v in ID2LABEL.items()}
+    LABELS = list(LABEL2ID.keys())
+
+    model = AutoModelForTokenClassification.from_pretrained(
+        model_name,
+        num_labels=len(LABELS),
+        id2label=ID2LABEL,
+        label2id=LABEL2ID,
+        ignore_mismatched_sizes=True,
+    )
