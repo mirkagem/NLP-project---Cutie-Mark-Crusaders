@@ -30,7 +30,7 @@ languages = [poem["language"] for poem in data]
 # splitting data
 train_data, test_data = train_test_split(
     data,
-    train_size=0.7,     #CHANGE THIS AFTER!
+    train_size=0.6,     #CHANGE THIS AFTER!
     stratify=languages,
     random_state=random_state)
 
@@ -38,7 +38,7 @@ train_languages = [poem["language"] for poem in train_data]
 
 train_data, val_data = train_test_split(
     train_data,
-    train_size=0.7,
+    train_size=0.6,
     stratify=train_languages,
     random_state=random_state)
 
