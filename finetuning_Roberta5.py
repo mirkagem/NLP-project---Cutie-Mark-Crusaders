@@ -30,7 +30,7 @@ languages = [poem["language"] for poem in data]
 # splitting data
 train_data, test_data = train_test_split(
     data,
-    train_size=0.1,     #CHANGE THIS AFTER!
+    train_size=0.7,     #CHANGE THIS AFTER!
     stratify=languages,
     random_state=random_state)
 
@@ -38,7 +38,7 @@ train_languages = [poem["language"] for poem in train_data]
 
 train_data, val_data = train_test_split(
     train_data,
-    train_size=0.6,
+    train_size=0.7,
     stratify=train_languages,
     random_state=random_state)
 
@@ -186,19 +186,6 @@ print(f"\nFine-tuned model saved to: {output_dir}")
 
 # end of finetuning
 
-
-
-#evaluate_finetuned(test_data)
-# def evaluate_finetuned(test_data, model_dir="./finetuned-ner"):
-#     print(f"\nLoading fine-tuned model from {model_dir}...")
-#     ner_pipeline = load_ner_pipeline(model_name=model_dir)
-
-#     overall, label_counts, lang_stats = run_evaluation(test_data, ner_pipeline) --- we are here
-#     print_results(overall, label_counts, lang_stats)
-
-
-
-print(f"\nLoading fine-tuned model from {model_dir}...")
 model = AutoModelForTokenClassification.from_pretrained(model_name)
 ner_pipeline = pipeline(
         "ner",
@@ -300,3 +287,57 @@ for lang, c in sorted(lang_stats.items()):
 #print any poems which got errors
 for e in errors:
     print(f"  ID {e['id']}: {e['error']}")
+
+
+#OVERALL (60:40 split)
+# Train size : 142
+# Validation size : 96
+# Test size : 159
+# ==================================================
+#   Precision : 0.575
+#   Recall    : 0.453
+#   F1        : 0.507
+#   TP=414  FP=306  FN=499
+
+
+# PER LABEL
+# ==================================================
+#   LOC    - P: 0.681  R: 0.598  F1: 0.637 (TP=205 FP=96 FN=138)
+#   MISC   - P: 0.008  R: 0.125  F1: 0.015 (TP=1 FP=122 FN=7)
+#   ORG    - P: 0.167  R: 0.500  F1: 0.250 (TP=1 FP=5 FN=1)
+#   PER    - P: 0.714  R: 0.370  F1: 0.487 (TP=207 FP=83 FN=353)
+
+
+# PER LANGUAGE
+# ==================================================
+#   Bulgarian  - P: 0.787  R: 0.725  F1: 0.754 (TP=129 FP=35 FN=49)
+#   Danish     - P: 0.548  R: 0.446  F1: 0.492 (TP=136 FP=112 FN=169)
+#   Polish     - P: 0.423  R: 0.291  F1: 0.345 (TP=58 FP=79 FN=141)
+#   Slovak     - P: 0.532  R: 0.394  F1: 0.453 (TP=91 FP=80 FN=140)
+# (venv) PS C:\Users\Mirka Gemelova\OneDrive - ITU\Dokumenty\ITU\NLP\Project> 
+
+#Handcalculated macroF1=0.511
+
+#OVERALL (70:30 split)
+# #OVERALL
+# ==================================================
+#   Precision : 0.588
+#   Recall    : 0.460
+#   F1        : 0.516
+#   TP=320  FP=224  FN=376
+
+
+# PER LABEL
+# ==================================================
+#   LOC    - P: 0.726  R: 0.612  F1: 0.664 (TP=167 FP=63 FN=106)
+#   MISC   - P: 0.000  R: 0.000  F1: 0.000 (TP=0 FP=89 FN=5)
+#   ORG    - P: 0.200  R: 0.500  F1: 0.286 (TP=1 FP=4 FN=1)
+#   PER    - P: 0.691  R: 0.365  F1: 0.478 (TP=152 FP=68 FN=264)
+
+
+# PER LANGUAGE
+# ==================================================
+#   Bulgarian  - P: 0.836  R: 0.776  F1: 0.805 (TP=97 FP=19 FN=28)
+#   Danish     - P: 0.541  R: 0.444  F1: 0.488 (TP=99 FP=84 FN=124)
+#   Polish     - P: 0.468  R: 0.321  F1: 0.381 (TP=52 FP=59 FN=110)
+#   Slovak     - P: 0.537  R: 0.387  F1: 0.450 (TP=72 FP=62 FN=114)
